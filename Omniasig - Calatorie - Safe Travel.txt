@@ -1,0 +1,583 @@
+1. CLAUZĂ OPERATIVĂ
+1.1 OMNIASIG VIENNA INSURANCE GROUP se obligă ca, în urma producerii sau apariţiei oricărui eveniment asigurat, în baza informaţiilor furnizate de Asigurat / Contractant precum şi a oricăror date privind riscurile asigurate transmise în scris de acesta, sub rezerva respectării întocmai a condiţiilor, excluderilor şi clauzelor convenite de comun acord în Poliţă şi în baza plăţii primei de asigurare integral şi anticipat, să plătească Asiguratului sau, după caz, Beneficiarului, despăgubirea / indemnizaţia cuvenită în cuantumul şi în condiţiile prevăzute în prezenta Poliţă.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.1 Accident: eveniment întâmplător şi imprevizibil, generat de influenţa unor factori externi, provenit din afara organismului şi independent de voinţa Asiguratului, produs în perioada de asigurare, în cadrul teritoriului asigurat şi timpul călătoriei şi care afectează cursul normal al vieţii, provocând prejudicii (vătămare corporală şi/sau deces).
+Sunt considerate accidente şi următoarele: entorse, fracturi / rupturi de muşchi sau ligamente, otrăviri sau intoxicaţii prin ingerarea sau inhalarea de substanţe, lichide sau gaze toxice / otrăvitoare, înecul.
+Nu sunt considerate accidente şi nici consecinţe ale unui accident, toate formele de boli acute sau cronice (inclusiv bolile transmisibile, infarctul, atacul de apoplexie şi alte afectări subite ale organelor, survenite în urma unei patologii ereditare sau a evoluţiei ei).
+2.2 Afecţiune pre-existentă: orice boală, vătămare corporală sau altă condiţie medicală pentru care, înainte de încheierea Poliţei, s-au primit recomandări şi tratamente (inclusiv prescriere de medicamente) sau pentru care s-au manifestat simptome consemnate în documente medicale emise de furnizori de servicii medicale autorizaţi legal, cu excepţia afecţiunilor acute care au fost vindecate în totalitate.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.3 Asigurat: titularul interesului asigurat, respectiv persoana fizică cu domiciliul sau reşedinţa în România, menţionată în Specificaţia Poliţei, care călătoreşte în cadrul teritoriului asigurat şi în perioada de asigurare .
+2.4 Bagaje: bunuri destinate uzului personal ce aparţin Asiguratului, pe care acesta le ia în călătorie sau le achiziţionează în timpul acesteia (altele decât cele aflate nemijlocit asupra sa), inclusiv geanta de voiaj, valiza, geamantan, troller; bagajele înregistrate sunt cele predate de către Asigurat în mod obligatoriu pe baza unui tichet de bagaje eliberat de compania de transport.
+2.5 Beneficiar: persoana îndreptăţită să primească despăgubirea / indemnizaţia în cazul producerii evenimentului asigurat.
+2.6 Boala cronică: boala cu o perioadă lungă de evoluţie, care este recidivantă sau prezintă posibilitatea de a recidiva, şi care necesită îngrijiri medicale repetate. Următoarele afecţiuni sunt considerate boli cronice (lista nu este exhaustivă): diabetul zaharat, poliartrită reumatoidă, scleroza multiplă, insuficienţa cardiacă, depresia, anxietatea cronică, orice afecţiune favorizată de fumat, consum excesiv de alcool, substanţe toxice sau droguri.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.7 Caz fortuit: eveniment care nu poate fi prevăzut şi nici împiedicat de către cel care ar fi fost chemat să răspundă dacă evenimentul nu s-ar fi produs.
+2.8 Călătorie: deplasarea efectuată de către Asigurat (în scop turistic sau de afaceri) în cadrul teritoriului asigurat şi în perioada de asigurare, având ca puncte de plecare şi întoarcere România.
+2.9 Contractant: persoana care încheie Poliţa cu OMNIASIG VIENNA INSURANCE GROUP pentru şi în numele Asiguratului şi se obligă faţă de OMNIASIG VIENNA INSURANCE GROUP să plătească prima de asigurare, precum şi să respecte obligaţiile care îi revin prin aceasta.
+2.10 Indemnizaţie / Despăgubire cuvenită: suma datorată de OMNIASIG VIENNA INSURANCE GROUP Asiguratului sau, după caz, Beneficiarului, în urma producerii evenimentului asigurat
+2.11 Eveniment asigurat: risc asigurat care s-a produs sau începe să se manifeste în timpul perioadei de asigurare şi în timpul călătoriei, cauzator de prejudicii şi în urma căruia se naşte dreptul de a primi indemnizaţia. Se consideră unul şi acelaşi eveniment asigurat:
+2.11.1 seria de prejudicii produse în mod accidental, provocate de un acelaşi risc precizat în şi acoperit de asigurarea oferită de Poliţă, care apar sau încep să se manifeste în timpul perioadei de asigurare;
+2.11.2 un acelaşi prejudiciu provocat de mai multe riscuri precizate în şi acoperite de asigurarea oferită de Poliţă, care apare sau începe să se manifeste în timpul perioadei de asigurare.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.12 Forţă majoră: situaţie invocată de una din părţi, dovedită cu documente emise de autorităţi publice competente şi cauzată de un eveniment extern, imprevizibil, absolut invincibil şi inevitabil, care a împiedicat una din părţi să îşi îndeplinească obligaţiile contractuale.
+2.13 Furnizor de servicii medicale: unitate sanitară, publică sau privată, care dispune de personal medical şi auxiliar calificat în acordarea de asistenţă medicală de specialitate, de facilităţi şi echipamente medicale de specialitate pentru acordarea de îngrijiri medicale şi servicii de diagnostic şi tratament în regim permanent pacienţilor internaţi; nu intră în categoria furnizorilor de servicii medicale: spitale de geriatrie şi gerontologie, centre de convalescenţă, centre care furnizează tratamente de recuperare balneo-kineto-terapeutică, azile, centre de reabilitare, spitale de psihiatrie sau secţii de psihiatrie ale spitalelor şi instituţii medicale destinate tratării dependenţelor.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.14 Invaliditate permanentă: reducerea potenţialului fizic, psihosenzorial sau intelectual, confirmată (prin documente medicale justificative emise de autorităţile competente) în decurs de un an de la data accidentului şi nesusceptibilă de ameliorări, după cum urmează:
+2.14.1 pierderea totală şi irecuperabilă a vederii ambilor ochi;
+2.14.2 pierderea totală şi irecuperabilă a auzului;
+2.14.3 pierderea totală şi irecuperabilă a capacităţii de a vorbi;
+2.14.4 amputaţia sau paralizia ambelor braţe sau a ambelor antebraţe sau a ambelor mâini, ori a unui membru superior şi a unui membru inferior, ori a ambelor membre inferioare (coapse, gambe şi labe) (deficienţă locomotorie gravă);
+2.14.5 anchilozarea ambelor articulaţii coxofemurale (deficienţă locomotorie gravă).
+2.15 Îmbolnăvire: modificare organică sau funcţională a stării normale de sănătate a Asiguratului, care se manifestă (în formă acută) pentru prima dată în perioada de asigurare şi în timpul călătoriei, diagnosticată de un medic de specialitate.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.16 Imbolnavire / vătămare gravă: pierderea capacitaţii normale de funcționare a organismului (în urma acțiunii unor factori dăunători sănătății) care implică:
+2.16.1 încetarea imediată a oricărei activităţi
+2.16.2 un tratament şi o supraveghere medicală ulterioară şi cu recomandarea de repaus la pat sau de a nu părăsi domiciliul, eliberată de un furnizor de servicii medicale autorizat legal, cu condiţia ca perioada de repaus să includă şi data începerii călătoriei.
+2.17 OMNIASIG ASSISTANCE: reprezentantul OMNIASIG VIENNA INSURANCE GROUP (societate de asistenţă împuternicită să o reprezinte), care acordă asistenţă Asiguraților conform acoperirii Poliței.
+2.18 Perioada de asigurare: intervalul de timp în care pot apărea evenimente asigurate pentru care OMNIASIG VIENNA INSURANCE GROUP S.A. datorează despăgubiri în baza Poliţei
+2.19 Poliţă: contract de asigurare cuprinzând Specificaţia, Condiţiile de asigurare, clauzele adiţionale, eventualele acte adiţionale şi orice alt document anexat Poliţei.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.20 Prima de asigurare: suma datorată de Asigurat / Contractant pentru preluarea în asigurare de către OMNIASIG VIENNA INSURANCE GROUP a riscurilor asigurate
+2.21 Repatriere: asigurarea transportului Asiguratului, după cum urmează:
+2.21.1 transportul corpului neînsufleţit al Asiguratului până la domiciliul său / reşedinţa sa, în cazul decesului survenit din riscuri asigurate acoperite prin Poliţă;
+2.22.2 transportul Asiguratului efectuat în condiţii speciale, după caz (inclusiv cu însoţitor - cadru medical recomandat de medic), până la domiciliul / reşedinţa acestuia sau până la cea mai apropiată unitate spitalicească de profil, corespunzătoare cazului medical survenit, din ţara de reşedinţă - Romania, dacă este necesară continuarea asistenţei medicale.
+2.22.3 Repatrierea se efectuează exclusiv de OMNIASIG VIENNA INSURANCE GROUP prin intermediul OMNIASIG ASSISTANCE
+2.22 Risc asigurat: eveniment viitor, posibil dar incert, acoperit de OMNIASIG VIENNA INSURANCE GROUP, a cărui producere ar putea cauza prejudicii.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.23 Sport de agrement: activitate fizică sportivă, practicată ocazional, în scop recreaţional, ca amator, în condiţii de siguranţă şi normalitate (echipamente / dotări adecvate şi/ sau asistenţă oferite de un operator autorizat pentru respectiva activitate), din categoriile: ski, snowboard (excepţie ski / snowboard extrem sau în afara pârtiei), skibob, patinaj (excepţie patinaj extrem cu role), drumeţii montane (marcate) până la 2.500 m altitudine sau până la 5.000 m altitudine dar condiţionat de ghid montan însoţitor, escaladare pe perete artificial adaptat, ski nautic (excepţie ski cu picioarele goale), înot, scuba diving până la 30 m, navigaţie, ski-jet, kyteboarding, windsurfing, rafting, caiac-canoe, ciclism (excepţie pe teren accidentat), carting, călărie, paintball, hidrobiciclete, tenis, fotbal, baschet, volei, handbal.
+2.24 Situaţie de urgenţă: deteriorare bruscă a parametrilor clinico-biologici sau apariţia unei simptomatologii acute care, în absenţa tratamentului imediat, poate pune în pericol sănătatea / viaţa Asiguratului.
+
+2. DEFINIŢII ŞI INTERPRETĂRI. În tot cuprinsul acestei Poliţe, termenii de mai jos au numai înţelesul atribuit prin următoarele definiţii
+2.25 Sublimită: sumă stabilită în cadrul sumei asigurate / limitei de răspundere pentru anumite evenimente şi/sau costuri / cheltuieli asigurate, nominalizate expres în Poliţă, care reprezintă maximul răspunderii OMNIASIG VIENNA INSURANCE GROUP în cazul producerii sau apariţiei evenimentului respectiv sau în cazul efectuării costurilor / cheltuielilor respective; sublimita nu operează în nicio situaţie în sensul majorării sumei asigurate asumate de OMNIASIG VIENNA INSURANCE GROUP.
+2.26 Suma asigurată / Limita de răspundere: valoarea menţionată în Poliţă pentru care s-a încheiat asigurarea; reprezintă maximul răspunderii OMNIASIG VIENNA INSURANCE GROUP în cazul producerii sau apariţiei unuia sau mai multor evenimente asigurate
+2.27 Tâlhărie: furtul săvârşit prin întrebuinţare de violenţe sau ameninţări, ori prin punerea victimei în stare de inconştienţă sau neputinţa de a se apăra, precum şi furtul urmat de întrebuinţarea unor astfel de mijloace pentru păstrarea bunului furat sau pentru înlăturarea urmelor infracţiunii ori pentru ca făptuitorul să-şi asigure scăparea.
+2.28 Teritoriul asigurat: teritoriul ţărilor în care călătoreşte Asiguratul menţionat în Specificatia Poliţei
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.1 Obiectul asigurării îl constituie:
+3.1.1 asistenţa medicală impusă de o situaţie de urgenţă, în conformitate cu prevederile Secţiunii I;
+3.1.2 integritatea corporală a Asiguratului, în cazul survenirii unor accidente, în conformitate cu prevederile Secţiunii II;
+3.1.3 bagajele Asiguratului şi/sau cheltuielile suplimentare generate de întârzierea bagajelor, în conformitate cu prevederile Secţiunii III;
+3.1.4 răspunderea civilă a Asiguratului, în conformitate cu prevederile Secţiunii IV;
+3.1.5 documentele de identitate / paşaportul, cărţile de credit, biletele de călătorie, în conformitate cu prevederile Secţiunii V;
+3.1.6 pierderile financiare suferite de Asigurat, generate de anularea călătoriei, în conformitate cu prevederile Secţiunii VI;
+3.1.7 pierderile financiare suferite de Asigurat, generate de întreruperea călătoriei, în conformitate cu prevederile Secţiunii VII
+3.1.8 cheltuielile suplimentare generate de plecarea întârziată / ratarea plecării, în conformitate cu prevederile Secţiunii VIII;
+3.1.9 pierderile financiare suferite de Asigurat, în cazul tranzacţiilor frauduloase efectuate cu cardul bancar pierdut / furat aparţinând Asiguratului, în conformitate cu prevederile Secţiunii IX;
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.1 Obiectul asigurării îl constituie:
+3.1.10 acoperirea franşizei suportată de Asigurat în baza unei poliţe de asigurare a autovehicului închiriat de la o companie de închiriere autorizată, în conformitate cu prevederile Secţiunii X;
+3.1.11 cheltuielile efectuate în legătură cu animalele de companie deţinute de Asigurat (câini/ pisici lăsate pe perioada călătoriei acasă în grija pensiunilor, rudelor sau prietenilor), în conformitate cu prevederile Secţiunii XI;
+3.1.12 costurile efectuate cu serviciile de curăţenie şi/sau menaj necesare după întoarcerea din călătorie ca urmare a unui accident suferit de Asigurat pe perioada călătoriei, în conformitate cu prevederile Secţiunii XII
+3.1.13 cheltuielile legate de protecţie juridică, în conformitate cu prevederile Secţiunii XIII
+3.1.14 echipamentele sportive şi/sau de agrement şi pierderile financiare suferite de Asigurat generate de pierderea / avarierea acestora sau întreruperea pachetului de servicii sportive şi/sau de agrement, în conformitate cu prevederile Secţiunii XIV.
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.1 Secţiunea I - ASISTENŢĂ MEDICALĂ DE URGENŢĂ. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate / sublimitelor aferente acestei Secţiuni:
+3.2.1.1 Pentru călătoriile efectuate în străinătate
+3.2.1.1.1 Serviciile medicale garantate se acordă numai pe teritoriul ţării unde a survenit urgenţa medicală, în cazul în care serviciile medicale nu pot fi amânate până la revenirea în România a Asiguratului.
+3.2.1.1.2 cheltuielile medicale impuse de situaţia de urgenţă necesare a fi efectuate în timpul călătoriei şi generate de producerea unui accident / unei îmbolnăviri acoperite prin Poliţă, pentru:
+a. servicii ambulatorii (servicii / tratamente medicale acordate Asiguratului în cadrul unei unităţi sanitare acreditate care nu necesită spitalizare continuă sau orice alte facilităţi pentru îngrijire medicală, incluzând analize de laborator, radiografii / proceduri medicale folosite pentru a diagnostica şi trata afecţiunile medicale);
+b. servicii spitaliceşti (servicii / tratamente medicale / intervenţii chirurgicale acordate Asiguratului la recomandarea unui medic de specialitate, conform standardelor şi normelor medicale recunoscute, într-un spital - unitate sanitară, publică sau privată, autorizată legal să asigure servicii medicale de specialitate pentru afecţiunea / vătămarea care necesită internare); OMNIASIG VIENNA INSURANCE GROUP îşi rezervă dreptul de a acoperi costul tratamentului în condiţii de spitalizare numai până în momentul în care starea medicală a Asiguratului permite repatrierea;
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.1 Secţiunea I - ASISTENŢĂ MEDICALĂ DE URGENŢĂ. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate / sublimitelor aferente acestei Secţiuni:
+3.2.1.1 Pentru călătoriile efectuate în străinătate
+3.2.1.1.2 cheltuielile medicale impuse de situaţia de urgenţă necesare a fi efectuate în timpul călătoriei şi generate de producerea unui accident / unei îmbolnăviri acoperite prin Poliţă, pentru:
+c. medicamente şi materiale sanitare prescrise de medic
+d. transport la cea mai apropiată unitate sanitară şi eventualul transfer, conform recomandării medicului, la o unitate sanitară de specialitate;
+e. tratamentul dentar, ca urmare a unui accident sau pentru îndepărtarea durerilor acute ce nu suportă amânarea intervenţiei (inclusiv o radiografie dentară), pentru o sublimită de 200 EUR;
+f. achiziţionarea unei perechi de ochelari de vedere înlocuitori, prescrise de medic, dacă ochelarii au fost afectaţi ca urmare a unui accident în urma căruia au rezultat şi vătămări corporale care necesită îngrijiri medicale, pentru o sublimită de 150 EUR;
+g. achiziţionarea sau închirierea dispozitivelor medicale prescrise de medic.
+
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.1 Secţiunea I - ASISTENŢĂ MEDICALĂ DE URGENŢĂ. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate / sublimitelor aferente acestei Secţiuni:
+3.2.1.1 Pentru călătoriile efectuate în străinătate
+3.2.1.1.2 cheltuielile medicale impuse de situaţia de urgenţă necesare a fi efectuate în timpul călătoriei şi generate de producerea unui accident / unei îmbolnăviri acoperite prin Poliţă, pentru:
+h. cheltuielile de repatriere pentru o sublimită de 5.000 EUR şi costul sicriului pentru o sublimită de 2.000 EUR în cazul survenirii decesului, ca urmare a producerii unui accident / unei îmbolnăviri acoperite prin Poliţă;
+i. cheltuielile telefonice justificate, efectuate de Asigurat pentru contactarea OMNIASIG ASSISTANCE, familiei, medicului curant, pentru o sublimită de 50 EUR.
+j. în situaţia spitalizării Asiguratului pe o perioadă mai mare de 10 zile calendaristice consecutive, cu autorizarea prealabilă:
+j.1. contravaloarea unui bilet de călătorie dus-întors (clasa economică) şi cheltuielile aferente cazării temporare, pentru vizita soţului / soţiei Asiguratului sau a unei rude, pentru o sublimită de 500 EUR;
+j.2. cheltuielile de transport (clasa economică) şi cheltuielile aferente cazării temporare pentru o escortă care să însoţească copiii minori, rămaşi fără supraveghere, care au călătorit împreună cu Asiguratul, pentru o sublimită de 1.000 EUR;
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.1 Secţiunea I - ASISTENŢĂ MEDICALĂ DE URGENŢĂ. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate / sublimitelor aferente acestei Secţiuni:
+3.2.1.1 Pentru călătoriile efectuate pe teritoriul României: cheltuielile aferente consultaţiilor la distanţă (telemedicina) efectuate în timpul călătoriei şi generate de producerea în perioada de asigurare a unui accident sau unei îmbolnăviri acoperite prin Poliţă
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.2 Secţiunea II - ACCIDENTE PERSOANE. OMNIASIG VIENNA INSURANCE GROUP acordă indemnizaţii, în limita sumei asigurate aferente acestei Secţiuni, ca urmare a unui accident acoperit prin Poliţă, pentru:
+a. decesul Asiguratului survenit în perioada de asigurare;
+b. invaliditatea permanentă a Asiguratului survenită în maximum 12 luni de la data producerii respectivului accident;
+şi, în plus, pentru călătoriile efectuate în România:
+c. cheltuielile medicale efectuate de Asigurat, în legătură cu vătămările corporale suferite de Asigurat, pentru o sublimită de 1.000 lei, pentru servicii medicale în ambulatoriu: Consultaţii de specialitate; Investigaţii medicale de tip ecografii, radiografii, explorări funcţionale, înaltă imagistică (CT/RMN); Analize de laborator (biochimie, hematologie, coagulare, microbiologice, virusologie, markeri endocrini, hepatici, tumorali etc.);
+d. spitalizarea Asiguratului într-un spital privat sau de stat; recomandată de către un medic specialist; se acordă o Indemnizatie fixă de 100 lei / zi pentru o durată maximă de spitalizare continuă de 5 zile.
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.3 Secţiunea III – BAGAJE. OMNIASIG VIENNA INSURANCE GROUP acordă despăgubiri, în limita sumei asigurate aferente acestei Secţiuni, pentru prejudiciile suferite de Asigurat în timpul călătoriei, ca urmare a:
+a. pierderii, distrugerii sau avarierii bagajelor în timpul transportului ca urmare a furtului sau accidentelor în care este implicat mijlocul de transport în care se află Asiguratul şi care le transportă
+b. pierderii, distrugerii sau avarierii bagajelor, ca urmare a producerii următoarelor riscuri : incendiu, trăsnet, explozie, cutremur, inundaţie, furt prin efracţie sau tâlhărie;
+c. întârzierii bagajelor înregistrate, conform raportului scris al companiei de transport (prin care se confirmă numărul de ore de întârziere) - bagaje temporar pierdute în tranzit în timpul călătoriei şi nereturnate Asiguratului în decurs de 6 ore de la sosire la destinaţia călătoriei (numai pentru călătoriile efectuate în străinătate).
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.4 Secţiunea IV - RĂSPUNDERE CIVILĂ PERSONALĂ. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita răspunderii aferente acestei Secţiuni, răspunderea civilă delictuală a Asiguratului pentru prejudiciile materiale directe pentru care raspunde, conform legii si jurisprudentei ţării în care călătoreşte faţă de terţe persoane care îndeplinesc cumulativ condiţiile
+a. sunt sub forma pagubelor la bunuri şi/sau vătămărilor corporale;
+b. sunt produse în perioada de asigurare şi în timpul călătoriei
+c. sunt cauzate de faptele / actele săvârşite de către Asigurat din culpă, în perioada de asigurare şi în timpul călătoriei
+d. sunt reclamate de persoanele prejudiciate în maximum 30 zile calendaristice de la de la terminarea călătoriei.
+3.2.5 Secţiunea V - DOCUMENTE (numai pentru călătoriile efectuate în străinătate). OMNIASIG VIENNA INSURANCE GROUP acordă despăgubiri, în limita sumei asigurate aferente acestei Secţiuni, pentru daunele survenite în legătură cu documentele de identitate, paşaportul, documentele autovehiculului personal, cardurile bancare, biletele de transport aparţinând Asiguratului indispensabile pentru continuarea călătoriei sau pentru reîntoarcerea în ţară, ca urmare a producerii, în perioada de asigurare şi în timpul călătoriei, a riscurilor de pierdere, furt sau tâlhărie.
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.6 Secţiunea VI - ANULAREA CĂLĂTORIEI. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate aferentă acestei Secţiuni, pierderile financiare suferite de Asigurat (costuri / cheltuieli datorate contractual furnizorilor de servicii de călătorie) generate de anularea călătoriei, cu condiţia ca anularea să fie necesară şi inevitabilă ca urmare a producerii în perioada de asigurare a următoarelor riscuri:
+a. decesul următoarelor persoane (rezidente în România): Asiguratul, soţul / soţia (inclusiv logodnic / logodnică, concubin / concubină) sau rudă de gradul I sau II a Asiguratului sau soţului / soţiei acestuia (parinţi, socri, bunici, copii, gineri, nepoţi, fraţi, surori, cumnaţi, cumnate);
+b. îmbolnăvirea / vătămarea gravă a următoarelor persoane (rezidente în România): Asiguratul, soţul / soţia (inclusiv logodnic / logodnică, concubin / concubină), rudă de gradul I sau II a Asiguratului sau soţului / soţiei acestuia (părinţi, socri, bunici, copii, gineri, nepoţi, frati, surori, cumnaţi, cumnate) sau partenerul de călătorie
+
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.6 Secţiunea VI - ANULAREA CĂLĂTORIEI. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate aferentă acestei Secţiuni, pierderile financiare suferite de Asigurat (costuri / cheltuieli datorate contractual furnizorilor de servicii de călătorie) generate de anularea călătoriei, cu condiţia ca anularea să fie necesară şi inevitabilă ca urmare a producerii în perioada de asigurare a următoarelor riscuri:
+c. distrugerea / devastarea locuinţei Asiguratului sau sediului în care acesta îşi desfăşoară propria afacere (în calitate de administrator / asociat) în perioada de 15 zile calendaristice anterioare începerii călătoriei, rezultând din incendiu, explozie, furtună, căderi de copaci, accident aviatic, calamităţi naturale – inundaţie, alunecare de teren, cutremur, furt prin efracţie sau acte de tâlhărie asupra Asiguratului / unui prepus al acestuia, evenimente care fac necesară prezenţa acestuia la domiciliu / sediului afacerii, confirmată în baza unui document emis de o autoritate competentă;
+citarea Asiguratului ca parte într-un proces (indiferent de calitatea pe care o are în dosar), inclusiv înaintarea acţiunii de divorţ de către soţul / soţia Asiguratului cu indeplinirea cumulativă a următoarelor condiţii:
+d.1. citaţia să fie primită după data rezervării călătoriei sau data intrării în valabilitate a Poliţei (oricare intervine mai târziu);
+d.2. prezenţa Asiguratului la proces să fie obligatorie, conform normelor procedurale, iar procesul să se desfăşoare în perioada călătoriei.
+
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.6 Secţiunea VI - ANULAREA CĂLĂTORIEI. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate aferentă acestei Secţiuni, pierderile financiare suferite de Asigurat (costuri / cheltuieli datorate contractual furnizorilor de servicii de călătorie) generate de anularea călătoriei, cu condiţia ca anularea să fie necesară şi inevitabilă ca urmare a producerii în perioada de asigurare a următoarelor riscuri:
+e. accident rutier, survenit pe teritoriul României cu maximum 5 zile înainte de plecarea în călătorie, dovedit prin acte emise de organele abilitate, în care este implicat direct autovehiculul cu care Asiguratul urmează să se deplaseze în călătorie;
+f. condiţii / cauze medicale legate de sarcina Asiguratului, soţiei (inclusiv logodnica) / mamei acestuia, constatată si confirmată medical după data rezervării călătoriei sau încheierii Poliţei (oricare intervine mai târziu); acoperirea validează şi pentru naşterea prematură, neprovocată, în cazul sarcinii constatate anterior rezervării călătoriei;
+g. concedierea Asiguratului (din initiaţiva angajatorului pentru motive care nu ţin de persoana sa).
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.7 Secţiunea VII - ÎNTRERUPEREA CĂLĂTORIEI. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate aferentă acestei Secţiuni, pierderile financiare (costuri / cheltuieli) suferite de Asigurat generate de întreruperea călătoriei (călătorie scurtată prin înapoierea în România mai devreme decât termenul stabilit iniţial), cu condiţia ca întreruperea să fie necesară şi inevitabilă ca urmare a producerii în perioada de asigurare şi pe durata călătoriei a următoarelor riscuri:
+a. decesul următoarelor persoane (rezidente în România): Asiguratul, soţul / soţia (inclusiv logodnic / logodnică, concubin / concubină) sau rudă de gradul I sau II a Asiguratului sau soţului / soţiei acestuia (parinţi, socri, bunici, copii, gineri, nepoţi, fraţi, surori, cumnaţi, cumnate);
+b. îmbolnăvirea / vătămarea gravă a următoarelor persoane (rezidente în România): Asiguratul, soţul / soţia (inclusiv logodnic / logodnică, concubin / concubină), rudă de gradul I sau II a Asiguratului sau soţului / soţiei acestuia (părinţi, socri, bunici, copii, gineri, nepoţi, fraţi, surori, cumnaţi, cumnate) sau partenerul de călătorie
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.7 Secţiunea VII - ÎNTRERUPEREA CĂLĂTORIEI. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate aferentă acestei Secţiuni, pierderile financiare (costuri / cheltuieli) suferite de Asigurat generate de întreruperea călătoriei (călătorie scurtată prin înapoierea în România mai devreme decât termenul stabilit iniţial), cu condiţia ca întreruperea să fie necesară şi inevitabilă ca urmare a producerii în perioada de asigurare şi pe durata călătoriei a următoarelor riscuri:
+c. distrugerea / devastarea locuinţei Asiguratului sau sediului în care acesta îşi desfăşoară propria afacere (în calitate de administrator / asociat) în perioada călătoriei, rezultând din incendiu, furt, explozie, furtună, căderi de copaci, accident aviatic, calamităţi naturale – inundaţie, alunecare de teren, cutremur, furt prin efracţie sau acte de tâlhărie asupra Asiguratului / unui prepus al acestuia, evenimente care fac necesară prezenţa acestuia la domiciliu / sediului afacerii, confirmată în baza unui document emis de o autoritate competentă;
+d. citarea Asiguratului ca parte într-un proces (indiferent de calitatea pe care o are în dosar), inclusiv inaintarea acţiunii de divorţ de către soţul / soţia Asiguratului cu îndeplinirea cumulativă a următoarelor condiţii:
+d.1. citaţia să fie primită după data rezervării călătoriei sau data intrării în valabilitate a Poliţei (oricare intervine mai târziu);
+d.2. prezenţa Asiguratului la proces să fie obligatorie, conform normelor procedurale, iar procesul să se desfaşoare în perioada călătoriei.
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.8 Secţiunea VIII - RATAREA PLECĂRII (numai pentru călătoriile efectuate în străinătate). OMNIASIG VIENNA INSURANCE GROUP acordă despăgubiri, în limita sumei asigurate / sublimitelor aplicabile aferente acestei Secţiuni, pentru cheltuielile necesare, rezonabile şi suplimentare generate de:
+a. întârzierea cu mai mult de 12 ore (conform raportului scris al companiei de transport prin care se confirmă numărul de ore de întarziere şi motivul) faţă de ora programată a plecării de la punctul final de plecare din sau către România (conform biletului de călătorie) a mijlocului de transport rezervat (inclusiv costuri implicate de ratarea cursei de legătură), ca urmare a producerii, în perioada de asigurare, a următoarelor riscuri (Sublimite aplicabile: 20 EUR pentru primele 12 ore de întârziere şi suplimentar 10 EUR pentru fiecare interval subsecvent de 12 ore):
+a.1 vreme nefavorabilă - confirmată de instituţiile abilitate
+a.2 avarii mecanice / disfuncţionalităţi tehnice ale mijlocului de transport rezervat pentru călătorie;
+a.3 greve / acţiuni similare / alarmă de securitate (nedeclarate până la data încheierii Poliţei sau rezervării călătoriei, oricare intervine mai târziu).
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.8 Secţiunea VIII - RATAREA PLECĂRII (numai pentru călătoriile efectuate în străinătate). OMNIASIG VIENNA INSURANCE GROUP acordă despăgubiri, în limita sumei asigurate / sublimitelor aplicabile aferente acestei Secţiuni, pentru cheltuielile necesare, rezonabile şi suplimentare generate de:
+b. sosirea cu întârziere a Asiguratului la punctul final de plecare din sau către România (conform biletului de călătorie), ca urmare a producerii în perioada de asigurare a următoarelor riscuri:
+b.1 avarierii vehiculului în care se afla Asiguratul, ca urmare a unui accident de circulaţie (conform procesului verbal / actului constatator întocmit de poliţie / compania de asistenţă rutieră);
+b.2 unui grav accident de circulaţie survenit exclusiv pe ruta deplasării (conform procesului verbal / actului constatator întocmit de poliţie);
+b.3 întârzierea mijloacelor de transport public (certificată / motivată de compania de transport, precizând perioada întârzierii).
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.9 Secţiunea IX –TRANZACŢII FRAUDULOASE. OMNIASIG VIENNA INSURANCE GROUP acordă despăgubiri, în limita sumei asigurate aferente acestei Secţiuni, pentru pierderile financiare suferite de Asigurat în cazul tranzacţiilor frauduloase efectuate cu cardul bancar aparţinând Asiguratului, pierdut / furat în perioada de asigurare şi în timpul călătoriei.
+Acoperirea conferită de această Secţiune se referă numai la tranzacţiile frauduloase efectuate de către un terţ în intervalul determinat de data pierderii / furtului menţionată în raportul emis de Poliţie şi data confirmării de primire de către banca emitentă a cardului a avizului privind pierderea / furtul cardului, dar maximum 72 ore.
+3.2.10 Secţiunea X – FRANŞIZA CASCO. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate aferente acestei Secţiuni, partea din daună suportată de către Asigurat respectiv franşiza aplicabilă în baza unei poliţe de asigurare CASCO încheiată pentru autovehiculul închiriat în timpul călătoriei, consecinţă a producerii unor accidente de circulaţie sau furtului acoperite în baza respectivei poliţe de asigurare şi pentru care răspunde Asiguratul, în calitate de conducător auto nominalizat în contractul de închiriere.
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.11 Secţiunea XI – ANIMALE DE COMPANIE. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate / sublimitei aferente acestei Secţiuni şi în legătură cu animalele de companie deţinute de Asigurat (câini / pisici lăsate pe perioada călătoriei acasă în grija pensiunilor, rudelor / prietenilor):
+a. costurile / cheltuielile suplimentare cu prelungirea cazării la pensiuni canine, dacă revenirea din călătorie este întârziată ca urmare a producerii unui risc asigurat acoperit prin Poliţă;
+b. costurile / cheltuielile cu tratamente veterinare ca urmare a îmbolnăvirii / accidentării animalului de companie pe durata călătoriei Asiguratului
+3.2.12. Secţiunea XII – SERVICII DOMESTICE. OMNIASIG VIENNA INSURANCE GROUP acoperă, în limita sumei asigurate / sublimitei (30 EUR / zi de invaliditate, pentru călătorii în străinătate sau 150 RON / zi de invaliditate, pentru călătorii în România) aferente acestei Secţiuni, costurile / cheltuielile cu serviciile de curăţenie şi/sau menaj ce nu mai pot fi efectuate de către Asigurat ca urmare a dobândirii de către acesta a unei invalidităţi rezultate dintr-un accident întamplat în perioada călătoriei (se impune un document medical care să ateste invaliditatea dobândită în baza căruia OMNIASIG VIENNA INSURANCE GROUP să constate incapacitatea efectuării serviciilor de curăţenie şi/sau menaj după întoarcerea din călătorie).
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.13. Secţiunea XIII – PROTECŢIE JURIDICĂ (numai pentru călătoriile efectuate în străinătate). OMNIASIG VIENNA INSURANCE GROUP acordă despăgubiri, în limita sumei asigurate aferente acestei Secţiuni, pentru costurile / cheltuielile efectuate de Asigurat ca urmare a unei acţiuni civile, în legătură cu recuperarea / repararea prejudiciilor suferite de Asigurat, de natura vătămărilor corporale şi/sau deces, provocate de o terţă parte în perioada de asigurare şi în timpul călătoriei în teritoriul asigurat.
+OMNIASIG VIENNA INSURANCE GROUP, prin mandatarii săi, va aproba în prealabil orice acţiune legală şi va decide punctul de la care negocierile nu mai pot fi continuate în mod util.
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.14 Secţiunea XIV – SPORTURI DE AGREMENT. OMNIASIG VIENNA INSURANCE GROUP acordă despăgubiri, în limita sumei asigurate / sublimitelor aferente acestei Secţiuni, pentru:
+a. distrugerea, avarierea, furtul echipamentelor deţinute sau închiriate de Asigurat, survenite în perioada de asigurare şi în timpul călătoriei; în cazul echipamentelor închiriate, despăgubirea se limitează la răspunderea Asiguratului pentru o astfel de pierdere, avariere; pentru aceste riscuri, sublimita aplicabilă în caz de despăgubire este de 1.500 EUR pentru călătoriile în străinătate şi 1.500 RON pentru călătoriile în România.
+b. costurile / cheltuielile efectuate în legătură cu închirierea unui echipament similar, consecinţă a producerii riscurilor menţionate la pct. (i) sau pierderii temporare / întarzierii în tranzit de către compania de transport public a echipamentului propriu pentru mai mult de 24 de ore; pentru aceste riscuri, sublimita aplicabilă în caz de despăgubire este de 500 EUR pentru călătoriile în străinătate şi 500 RON pentru călătoriile în România.
+c. pierderile financiare suferite de Asigurat reprezentând costurile irecuperabile aferente pachetului de servicii sportive contractat şi neutilizat (chirie echipament, card teleferic, scoala de ski etc.) ca urmare a producerii în perioada de asigurare şi în timpul călătoriei a unui accident sau îmbolnăvire a Asiguratului; acoperirea este condiţionată de un raport emis de către un medic autorizat care să certifice imposibilitatea Asiguratului de a mai participa la activităţile contractate; pentru aceste riscuri, sublimita aplicabilă în caz de despăgubire este de 500 EUR pentru călătoriile în străinătate şi 500 RON pentru călătoriile în România.
+
+3. OBIECTUL ASIGURĂRII; RISCURI / CHELTUIELI ACOPERITE ŞI SERVICII DE ASISTENŢĂ ACORDATE
+3.2 Riscuri / cheltuieli acoperite:
+3.2.15 SERVICII DE ASISTENŢĂ DE CĂLĂTORIE (numai pentru călătoriile efectuate în străinătate). În situaţia intervenirii evenimentului asigurat, OMNIASIG VIENNA INSURANCE GROUP oferă asistenţă prin intermediul OMNIASIG ASSISTANCE, constând în:
+a. pentru Secţiunea I – ASISTENŢĂ MEDICALĂ DE URGENŢĂ: programarea la un medic specialist; suport acordat pentru spitalizarea şi/sau repatrierea Asiguratului ori întoarcerea în România a copiilor minori, după caz; furnizarea unor garanţii de plată a serviciilor spitaliceşti (va aranja plata direct la furnizorul de servicii medicale a chetuielilor medicale acoperite prin Poliţă);
+b. pentru celelalte Secţiuni acoperite prin Poliţă, după caz: suport / consiliere pentru recuperarea bagajelor înregistrate întârziate, dacă Asiguratul comunică numărul / referinţa înregistrării; suport pentru înlocuirea documentelor pierdute / furate, inclusiv indicaţii / recomandări privind birourile / oficiile competente; organizarea transportului pentru reîntoarcerea acasă în cazul întreruperii călătoriei acoperit prin Poliţă;
+c. transmitere de mesaje către rudele, colegii sau prietenii din România ai Asiguratului
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.1 Generale - aplicabile tuturor Secţiunilor
+4.1.1 război, invazie, acţiunea unui duşman extern, ostilităţi (indiferent dacă a fost declarată stare de război sau nu), război civil, rebeliune, revoluţie, conspiraţie, insurecţie, răscoală, răzvrătire militară cu sau fără uzurparea puterii, lege marţială, actele persoanelor răuvoitoare care acţionează în numele sau în legătură cu orice organizaţie politică, confiscare, naţionalizare, expropriere, sechestrare, rechiziţionare, distrugere sau avariere din ordinul oricărui guvern de drept sau de fapt sau oricărei autorităţi publice; terorism, sabotaj; grevă, greve patronale, revoltă, tulburări civile (excepţie în cazul riscurilor acoperite conform Secţiunii VIII);
+4.1.2 reacţie nucleară, radiaţii nucleare sau contaminare radioactivă, poluare sau contaminare din orice cauză, presiune generată de spargerea zidului sonic de către o aeronavă
+4.1.3 efectelor normale ale luminii, temperaturii, stării timpului şi a radiaţiilor de orice fel (excepţie în cazul riscurilor acoperite conform Secţiunii VII);
+4.1.4 faptelor intenţionate ale Asiguratului, Contractantului sau Beneficiarului
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.1 Generale - aplicabile tuturor Secţiunilor
+4.1.5 comiterii sau încercării de comitere cu intenţie de către Asigurat a unor fapte penale; comiterii oricăror infracţiuni conform legislaţiei ţării unde a survenit evenimentul (inclusiv nerespectarea normelor privind circulaţia pe drumurile publice care constituie infracţiune)
+4.1.6 participării la competiţii / demonstraţii (inclusiv antrenamente pentru acestea)
+4.1.7 angajarii Asiguratului în operaţiuni ale Forţelor Armate sau într-un zbor aerian, altfel decât ca pasager al unei aeronave operate de o companie autorizată pentru transportul de călători
+4.1.8 efectuarii călătoriei contrar oricăror interdicţii / avertismente de călătorie emise de autorităţi competente
+4.1.9 desfăşurării unor activităţi lucrative ce implică munca fizică sau atestatul de şofer profesionist
+4.1.10 Clauza referitoare la sancţiuni: OMNIASIG VIENNA INSURANCE GROUP nu oferă acoperire, nu va fi considerată răspunzătoare şi nici obligată să plătească vreo daună sau să furnizeze vreun beneficiu în baza prezentelor condiţii de asigurare, în măsura în care acoperirea riscurilor, plata unei daune pentru aceste riscuri sau furnizarea de beneficii aferente acestora ar expune OMNIASIG VIENNA INSURANCE GROUP la orice sancțiune, interdicție sau restricție în conformitate cu Rezoluțiile ONU sau cu sancțiunile comerciale sau economice, legile şi reglementările Uniunii Europene, României, Marii Britanii sau Statelor Unite ale Americii (cu condiția ca aceasta să nu încalce orice reglementare sau legislație specifică aplicabilă OMNIASIG VIENNA INSURANCE GROUP).
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.1. Secţiunea I – ASISTENŢĂ MEDICALĂ DE URGENŢĂ
+4.2.1.1 servicii medicale acordate în afara teritoriului asigurat sau fără legatură cu o situaţie de urgenţă;
+4.2.1.2 cheltuieli medicale efectuate după întoarcerea în România sau repatrierea Asiguratului (oricare intervine mai devreme);
+4.2.1.3 evenimente rezultate din practicarea sporturilor ce nu corespund sporturilor de agrement acoperite prin Poliţă;
+4.2.1.4 afectiuni pre-existente, cu excepţia asistenţei medicale de urgenţă, pentru salvarea vieţii Asiguratului sau pentru calmarea durerilor acute pentru o sublimită de 1.000 EUR în cazul călătoriilor efectuate în străinătate şi a consultaţiilor de telemedicină acoperite pentru călătoriile efectuate pe teritoriul României;
+4.2.1.5 îmbolnăviri / accidente cauzate de consumul de alcool, consumul de droguri, narcotice, abuzul de medicamente, conducerea unui vehicul fără permis de conducere valabil pentru categoria respectivă (inclusiv în situaţiile de anulare / suspendare);
+4.2.1.6 autovătămări provocate cu intenţie de către Asigurat, sinucidere (inclusiv tentativa în acest sens);
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.1. Secţiunea I – ASISTENŢĂ MEDICALĂ DE URGENŢĂ
+4.2.1.7 boli mintale, tulburări psihice sau de natură nervoasă, (inclusiv depresie, anxietate), cu excepţia atacurilor de panică
+4.2.1.8 evenimente survenite în timpul unei călătorii efectuate contrar sfatului medicului curant sau în scopul de a beneficia de tratamente medicale;
+4.2.1.9 neefectuării vaccinurilor obligatorii sau a celor recomandate ca necesare de către autorităţile locale din ţările în care călătoreşte;
+4.2.1.10 cancer, boli cu transmitere sexuală, tuberculoza, HIV/SIDA
+4.2.1.11 proceduri medicale experimentale, proceduri terapeutice nerecunoscute medical şi/sau nerecunoscute de instituţiile competente, cât şi consecinţele acestora
+4.2.1.12 starea de graviditate / naşterea (inclusiv întreruperea voluntară a sarcinii sau avortul), cu excepţia complicaţiilor acute apărute în primele 30 de săptămâni de sarcină, caz în care OMNIASIG VIENNA INSURANCE GROUP despăgubeşte numai cheltuielile care privesc strict procedurile medicale pentru salvarea vieţii mamei şi/sau a copilului;
+4.2.1.13 tratamente estetice / chirurgie cosmetică (excepţie chirurgia reconstructivă necesară ca urmare a producerii unui accident / unei îmbolnăviri acoperite prin Poliţă);
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.1. Secţiunea I – ASISTENŢĂ MEDICALĂ DE URGENŢĂ
+4.2.1.14 medicamente sau tratamente, necesar a fi administrate sau acordate în timpul călătoriei în străinătate, dar cunoscute sau prescrise înaintea începerii călătoriei
+4.2.1.15 produse clasificate ca: vitamine / minerale, suplimente nutriţionale sau dietetice, produse cosmetice, chiar dacă sunt prescrise de un medic sau sunt recunoscute ca având efecte terapeutice;
+4.2.1.16 transplantul de organe, sterilitate, fecundare artificială, fracturi patologice
+4.2.1.17 vaccinările de orice fel şi/ sau consecinţele acestora;
+4.2.1.18 tratamente / medicamente care nu au fost prescrise de un medic autorizat şi orice alte medicamente care se pot elibera fără prescripţie medicală – OTC (Over the Counter);
+4.2.1.19 asistenţa medicală acordată de rudele Asiguratului;
+4.2.1.20 cure termale, tratamente de recuperare, fizioterapie şi tratamente în case de odihnă, sanatorii şi alte instituţii similare;
+4.2.1.21 cheltuieli de repatriere pentru care nu există acordul prealabil al OMNIASIG VIENNA INSURANCE GROUP, precum şi cheltuielile medicale efectuate după data la care, deşi posibilă, repatrierea nu s-a efectuat ca urmare a deciziei Asiguratului;
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.1. Secţiunea I – ASISTENŢĂ MEDICALĂ DE URGENŢĂ
+4.2.1.22 accidente produse în timp ce Asiguratul are calitatea de pasager al unui mijloc de transport aerian (exemple: avion, planor, elicopter) aparţinând unei companii aeriene nerecunoscute oficial / neautorizate;
+4.2.1.23 accidente survenite în timpul participării Asiguratului la competiţii / demonstraţii (inclusiv antrenamente pentru acestea);
+4.2.1.24 epidemii / pandemii declarate anterior sosirii Asiguratului în ţara respectivă;
+4.2.1.25 cheltuielile suplimentare pentru servicii speciale din spital (exemple: telefonul, televizorul);
+
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.2 Secţiunea II – ACCIDENTE PERSOANE
+a. excluderile de la art. 4.2.1 (iii) – (viii);
+b. accidente cauzate de existenţa oricărei boli (inclusiv cele transmisibile prin atacul animalelor, cu excepţia turbării);
+c. angajarea Asiguratului într-un zbor aerian, altfel decât ca pasager al unei aeronave operate de o companie autorizată pentru transportul de călători.
+4.2.3 Secţiunea III – Bagaje
+a. daunele produse articolelor fragile, deteriorabile, dacă acestea nu sunt cauzate de incendiu sau accident în care este implicat vehiculul care le transportă;
+b. numerar, hârtii de valoare (acţiuni, obligaţiuni, bonuri de trezorerie, titluri de stat, carduri, efecte comerciale, instrumente negociabile de plată, certificate de depozit, bonuri valorice, timbre poştale / fiscale, abonamente şi tichete de transport, bilete pentru spectacole, vouchere etc.), bijuterii, obiecte de platină, aur sau argint, pietre preţioase, obiecte sau colecţii de artă, haine de blană, telefoane mobile, lentile de contact, proteze / orteze, instrumente muzicale, piese de schimb pentru autovehicule, arme (inclusiv arme de vânătoare) şi trofee de vânătoare, produse cosmetice, parfumuri, medicamente, articole de consum / alimentare;
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.3 Secţiunea III – Bagaje
+c. obiecte / articole destinate comercializării, exercitării meseriei, profesiei sau ocupaţiei;
+d. daunele produse în situaţia în care bagajele au fost lăsate într-un vehicul (excepţii: dacă vehiculul a fost parcat într-un garaj încuiat sau parcare păzită sau loc de campare specific rulotelor; dacă se poate dovedi că furtul s-a produs între orele 6:00 si 22:00 şi bagajele au fost plasate într-un loc nevizibil din afară);
+e. daunele produse în situaţia în care bagajele au fost uitate în mijlocul de transport / hotel;
+f. daunele rezultând din orice proces / operaţiune de curăţare, uscare, călcare, reparare, modificare;
+g. orice cerere de despăgubire în legătură cu furtul / pierderea / întârzierea bagajelor pentru care nu există o reclamaţie la compania de transport, înregistrată în maximum 24 ore de la data descoperirii şi pentru care nu s-a emis un raport scris oficial;
+h. daune rezultând din scurgerea / risipirea unor lichide / pulberi existente în bagaje;
+i. pretenţii privind daunele de consecinţă (ex. lipsa de folosinţă, deprecierea valorii);
+j. daune rezultând din nerespectarea de către Asigurat a măsurilor rezonabile de siguranţă şi supraveghere (exemple: în locuri nepăzite, sub cerul liber, în balcoane sau pe terase deschise), excepţie în cazul furtului bunurilor lăsate fără supraveghere într-o incintă încuiată şi există urmele efracţiei;
+k. întârzierea bagajelor consecinţă a unor acţiuni ale poliţiei / autorităţilor vamale sau altor autorităţi abilitate să le reţină, grevelor / conflictelor de muncă apărute înaintea începerii călătoriei;
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.4 Secţiunea IV – RĂSPUNDERE CIVILĂ PERSONALĂ
+a. prejudicii fără legătură directă cu pagubele la bunuri / vătămările corporale - pierderi financiare indirecte (exemple: lipsa de folosinţă a bunurilor distruse, scăderea valorii acestora după reparaţie);
+b. prejudicii produse bunurilor care sunt în grija, custodia sau sub controlul Asiguratului;
+c. prejudicii în legătură cu hârtii de valoare, documente, registre sau titluri, acte, manuscrise, pietre scumpe, obiecte de platină, aur sau argint, mărci poştale şi altele asemenea, colecţii, tablouri, sculpturi sau alte obiecte având o valoare artistică, ştiinţifică sau istorică, precum şi pentru distrugerea sau dispariţia banilor, arme (inclusiv arme de vânătoare) şi trofee de vânătoare;
+d. pretenţii privind daunele morale (preţul durerii, contravaloarea pecuniară a traumei psihice cauzată ca urmare a vătămărilor corporale, alte prejudicii personale nepatrimoniale);
+e. pretenţii privitoare la răspunderile ce decurg din neexecutarea sau executarea necorespunzătoare a unui raport contractual (orice răspundere contractuală, care în lipsa unui astfel de contract nu ar fi existat), precum şi orice pretenţii ce decurg din exercitarea de către Asigurat a unei meserii, profesii sau activităţi comerciale (acte sau fapte de comerţ);
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.4 Secţiunea IV – RĂSPUNDERE CIVILĂ PERSONALĂ
+f. răspunderea civilă declanşată ca urmare a deţinerii / utilizării mijloacelor de transport (exceptând bicicletele si trotinetele utilizate in conformitate cu prevederile legale aplicabile), dronelor, animalelor, terenurilor sau clădirilor (alte clădiri decât cele utilizate temporar în scopul călătoriei);
+g. prejudicii rezultând din sau având legătură cu desfăşurarea unor activităţi ce nu corespund scopului declarat al călătoriei sau practicarea sporturilor de orice fel;
+h. pretenţii referitoare la amenzi de orice fel, cheltuieli de judecată la plata cărora ar fi obligat Asiguratul prin hotărâre penală, precum şi cheltuieli de executare a hotărârilor privind plata despăgubirilor;
+i. pretenţii de despăgubire formulate în legătură / ca urmare a unei hotărâri judecătoreşti, sentinţe arbitrale sau orice proceduri legale pronunţate de o instanţă din SUA, teritoriile deţinute sau aflate în posesia sa şi/sau Canada;
+j. prejudicii rezultând din săvârşirea de către Asigurat a unei fapte prevăzute de legea penală, dol sau culpa gravă;
+k. prejudicii rezultând din consumul de alcool, consumul de droguri, narcotice, abuzul de medicamente, boli contagioase;
+l. prejudicii rezultând din molestare / hărţuire sexuală, abuz fizic sau psihic
+m. cereri de despăgubire formulate de soţul / soţia, rudele Asiguratului sau partenerii de călătorie ai Asiguratului pentru propriile prejudicii, directe, indirecte
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.5 Secţiunea V - DOCUMENTE
+a. nerespectarea de către Asigurat a măsurilor rezonabile de siguranţă şi supraveghere, excepţie în cazurile în care documentele se află într-o incintă (inclusiv vehicul, dar nu lăsate la vedere) încuiată şi există urmele efracţiei;
+b. în situaţia în care documentele asigurate au fost lăsate în grija unei persoane care nu este îndreptăţită, prin funcţia pe care o deţine, să aibă grijă de astfel de documente;
+c. furtul / pierderea documentelor asigurate sau producerea actelor de tâlhărie pentru care nu există o reclamaţie la administratorul hotelului / poliţie, înregistrată în maximum 24 ore de la data descoperirii şi pentru care nu s-a emis un raport scris oficial.
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.6 Secţiunea VI / VII – ANULAREA CĂLĂTORIEI / ÎNTRERUPEREA CĂLĂTORIEI
+4.2.6.1 sumele pe care Asiguratul are dreptul de a le recupera de la Agenţia de turism tour-operatorul sau furnizorul de transport sau cazare, în conformitate cu clauzele contractelor de servicii de călătorie încheiate în ceea ce priveşte retragerea, chiar dacă aceste sume nu sunt recuperate efectiv sau devin nerecuperabile din cauze independente de OMNIASIG VIENNA INSURANCE GROUP;
+4.2.6.2 îmbolnăvirii şi/sau decesului survenite ca urmare a:
+a. afecţiunilor pre-existente cu excepţia decesului cauzat de afecţiuni pre-existente, caz în care despăgubirea cuvenită se va limita la 300 EUR / persoană pentru călătoriile în străinătate şi 1.500 RON / persoană pentru călătoriile în România;
+b. bolilor cu transmitere sexuală, bolilor psihice, bolilor sistemului nervos, infectării cu virusul HIV, bolilor alergice;
+c. epidemiilor, pandemiilor declarate oficial de către organele abilitateş
+d. întrerupere voluntară de sarcină, sinuciderii (inclusiv tentativă), consumului de alcool, consumului de droguri, narcotice, abuzului de medicamente, anomaliilor / malformaţiilor congenitale, procedurilor medicale experimentale;
+4.2.6.3 întreruperea rezultând din orice circumstanţe cunoscute sau pe care, în mod normal, Asiguratul ar fi trebuit să le cunoască anterior încheierii Poliţei sau rezervării călătoriei.
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.7 Secţiunea VIII - RATAREA PLECĂRII
+a. ordinele / recomandarea Autorităţii Civile aeriene sau Portuare / altora similare privind retragerea temporară a mijlocului de transport utilizat de Asigurat pentru efectuarea călătoriei programate;
+c. cheltuielile suplimentare de călătorie, daca operatorul de transport public a oferit scheme alternative de călătorie;
+d. legatura ratată, dacă între zborurile de legătură există mai puţin de 2 ore de legatură sau mai puţin de numărul de ore de legătura impus prin sistemele de rezervare a zborurilor.
+e. nerespectării condiţiilor normale de rapiditate şi preocupare în ceea ce priveşte încadrarea în limitele de timp specificate de compania de transport public cu privire la realizarea activităţii de check-in şi/sau nerespectării traiectoriei / rutei normale către punctul de plecare.
+4.2.8 Secţiunea IX – TRANZACŢII FRAUDULOASE
+a. utilizare neautorizată a cardului de către soţul / soţia sau rudele Asiguratului până la gradul IV de rudenie, partenerul de călătorie, asociaţii de afaceri;
+b. pierderea sau furtul cardului produs(ă) în timpul şi în perioada imediat următoare producerii unor incendii, explozii, ori calamităţi naturale (cutremure, inundaţii etc.) sau riscuri speciale (vandalism, terorism, greve, revolte, tulburări civile);
+c. lipsa solicitării Asiguratului de blocare a contului de card de către banca emitentă, în 24 de ore de când Asiguratul a constatat pierderea posesiei materiale asupra cardului bancar.
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.9 Secţiunea X – FRANŞIZA CASCO
+a. evenimente de daună consecinţă a nerespectării de către Asigurat a condiţiilor contractului privind închirierea autovehiculului;
+b. conducerii autovehiculului sub influenţa băuturilor alcoolice, produselor sau substanţelor stupefiante ori medicamentelor cu efecte similare care nu sunt compatibile cu permisiunea de a conduce, fără permis de conducere valabil pentru categoria respectivă (inclusiv în situaţiile de anulare / suspendare).
+4.2.10 Secţiunea XI – ANIMALE DE COMPANIE
+a. cheltuieli efectuate pentru servicii furnizate în afara teritoriului României
+4.2.11 Secţiunea XII - SERVICII DOMESTICE
+a. epidemii / pandemii declarate anterior sosirii Asiguratului în ţara respectivă
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.12 Secţiunea XIII - PROTECŢIE JURIDICĂ
+a. cereri de despăgubire pentru prejudicii produse în ţara de reşedintă, România
+b. cereri de despăgubire pentru proceduri judiciare în care este antrenat Asiguratul, vădit netemeinice
+c. acţiune în instanţă în care valoarea compensatorie estimată este mai mica decât valoarea cheltuielilor acoperite (suma asigurată aferentă acestei Secţiuni)
+d. orice reclamaţii îndreptate împotriva unei companii de transport, agenţie de turism, tour- operator şi agenţii acestora care organizează orice călătorie, partenerilor de călătorie, membrilor familiei, prepuşii OMNIASIG VIENNA INSURANCE GROUP;
+e. reclamaţiile Asiguratului împotriva persoanelor vinovate, notificate Asigurătorului după expirarea a 30 zile de la data producerii incidentului generator de prejudicii sau cele neacceptate în scris de OMNIASIG VIENNA INSURANCE GROUP
+f. neglijenţa personalului medical / furnizorului de servicii medicale
+g. cereri de despăgubire făcute de Asigurat în altă calitate decât cea de persoană particulară.
+
+4. EXCLUDERI. OMNIASIG VIENNA INSURANCE GROUP nu acoperă / nu răspunde pentru prejudicii cauzate, produse sau agravate, direct sau indirect de sau ca o consecinţă a:
+4.2 Specifice - aplicabile tuturor Secţiunilor
+4.2.12 Secţiunea XIV – SPORTURI DE AGREMENT
+a. daune produse echipamentului sportiv deţinut de Asigurat în timpul folosirii/ transportării acestuia;
+b. daune la echipamente lăsate nesupravegheate
+c. avarii electrice sau mecanice
+d. daunele rezultând din uzura normală, orice paraziţi sau din orice proces / operaţiune de curăţare, reparare, modificare;
+e. echipamente transportate în baza unui contract de transport de transport marfă
+f. reținerea, confiscarea sau distrugerea de către vamă sau autorități;
+g. evenimente rezultate din practicarea sporturilor ce nu corespund sporturilor de agrement acoperite prin Poliţă
+
+5. SUMA ASIGURATĂ / LIMITA DE RĂSPUNDERE
+5.1 Sumele asigurate / limitele de răspundere / sublimitele aferente Secţiunilor cuprinse în asigurare sunt menţionate în Specificaţia Poliţei, conform planului de acoperire agreat şi în prezentele Condiţii.
+6. PRIMA DE ASIGURARE
+6.1. Prima de asigurare aferentă perioadei de asigurare este menţionată în Specificaţia Poliţei.
+6.2. Prima de asigurare se stabileşte în lei şi se plăteşte la data emiterii Poliţei, anticipat şi integral, prin modalitatea de plată agreată de OMNIASIG VIENNA INSURANCE GROUP.
+7. ÎNCEPUTUL ŞI SFÂRŞITUL ASIGURĂRII; RĂSPUNDEREA OMNIASIG VIENNA INSURANCE GROUP
+7.1. Perioada de asigurare este cea precizată în Specificaţia Poliţei si nu poate fi mai mică de 2 zile şi mai mare de 365 zile.
+7.2. Răspunderea OMNIASIG VIENNA INSURANCE GROUP începe la ora 0:00 a zilei de început a perioadei de asigurare, dar nu mai devreme de începerea călătoriei (condiţia nu se aplică pentru Secţiunea VI – ANULAREA CĂLĂTORIEI), condiţionat de plata primei de asigurare şi emiterea Poliţei. Începerea călătoriei reprezintă:
+a. momentul trecerii frontierei României (pentru acoperirile valabile călătoriilor efectuate în străinătate, mai puţin Secţiunea VIII – Ratarea plecării);
+b. momentul părăsirii domiciliului (pentru acoperirile valabile călătoriilor efectuate în România şi Secţiunea VIII – Ratarea plecării).
+
+7. ÎNCEPUTUL ŞI SFÂRŞITUL ASIGURĂRII; RĂSPUNDEREA OMNIASIG VIENNA INSURANCE GROUP
+7.3 Răspunderea OMNIASIG VIENNA INSURANCE GROUP încetează (oricare intervine mai întâi)
+a. la ora 24:00 a ultimei zile a perioadei de asigurare
+b. la momentul finalizării călătoriei (trecerea frontierei în România – pentru călătoriile efectuate în străinătate, respectiv ajungerea la domiciliu - pentru călătoriile efectuate în România)
+c. la data şi ora de început a călătoriei, conform contractelor de servicii de călătorie achizitionate (se aplică pentru Secţiunea VI – ANULAREA CĂLĂTORIEI)
+d. la o data anterioară, conform altor situaţii prevăzute în Poliţă.
+7.4 Pentru Secţiunea VI – ANULAREA CĂLĂTORIEI:
+a. în situaţia în care perioada cuprinsă între data emiterii Poliţei şi data plecării în călătorie este mai mică de 28 zile, acoperirea este valabilă doar dacă Poliţa este emisă la data încheierii contractului de servicii de călătorie;
+b. în situaţia în care perioada cuprinsă între data emiterii Poliţei şi data plecării în călătorie este mai mare de 28 zile, acoperirea este valabilă şi dacă Poliţa este emisă la o dată ulterioară datei încheierii contractului de servicii de călătorie; în aceasta situaţie, OMNIASIG VIENNA INSURANCE GROUP răspunde numai pentru evenimentele asigurate produse începand cu a 10-a zi de la data încheierii asigurării
+
+7. ÎNCEPUTUL ŞI SFÂRŞITUL ASIGURĂRII; RĂSPUNDEREA OMNIASIG VIENNA INSURANCE GROUP
+7.5 Dacă perioada necesară acordării serviciilor prevăzute la art. 3.2.1 (i) – Secţiunea I (Asistenţă medicală de urgenţă) se prelungeşte după expirarea perioadei de asigurare, Asiguratul va beneficia de asistenţă în condiţiile prezentei Poliţe până la încheierea repatrierii sau restabilirea stării de sănătate, oricare survine mai întâi.
+
+8. OBLIGAŢIILE ASIGURATULUI / CONTRACTANTULUI
+8.1. Asiguratul şi/sau Contractantul au / are următoarele obligaţii:
+8.1.1. Înaintea intrării în vigoare a asigurării şi în timpul derulării acesteia:
+a. să răspundă complet şi corect la întrebările formulate de OMNIASIG VIENNA INSURANCE GROUP privind evaluarea riscului / emiterea Poliţei, precum şi să declare, la data încheierii Poliţei, orice informaţii sau împrejurări pe care le cunoaşte şi care, de asemenea, sunt esenţiale pentru evaluarea riscului.
+b. să comunice ulterior încheierii Poliţei orice modificări intervenite în legătură cu acestea;
+c. să ia toate măsurile rezonabile privind prevenirea producerii accidentelor, diminuarea posibilităţii producerii prejudiciilor;
+d. să se conformeze recomandărilor făcute în scris de OMNIASIG VIENNA INSURANCE GROUP privind măsurile de prevenire a daunelor;
+8.1.2. În cazul producerii sau apariţiei oricărui eveniment asigurat:
+a. să informeze / contacteze OMNIASIG VIENNA INSURANCE GROUP (la numerele de telefon prevăzute în Poliţă) în maximum 48 de ore sau imediat ce este posibil, în legătură cu producerea evenimentului asigurat, să urmeze instrucţiunile acesteia;
+Pentru Secţiunea I – ASISTENŢĂ MEDICALĂ DE URGENŢĂ: dacă societatea de asistenţă nu este contactată, Asiguratul trebuie să justifice imposibilitatea contactării acesteia, în caz contrar despăgubirea se va limita la 5% din suma asigurată aferentă acestei Secţiuni.
+b. să permită reprezentanţilor OMNIASIG VIENNA INSURANCE GROUP / OMNIASIG ASSISTANCE / (la numerele de telefon prevăzute în Poliţă) să facă investigaţii cu privire la circumstanţele producerii riscului asigurat, să înlesnească obţinerea tuturor informaţiilor necesare soluţionării cererii de despăgubire (exemple: dispensarea unităţilor sanitare / medicilor curanţi de secretul profesional – autorizare pe care Asiguratul o dă prin acordul de încheiere a Poliţei, detaliile călătoriei efectuate – destinaţie, interval temporal) şi, dacă aceştia consideră necesar, să se supună unei examinări medicale suplimentare (pe cheltuiala OMNIASIG VIENNA INSURANCE GROUP);
+
+8. OBLIGAŢIILE ASIGURATULUI / CONTRACTANTULUI
+8.1.2. În cazul producerii sau apariţiei oricărui eveniment asigurat:
+d. să raporteze autorităţilor competente (Poliţia sau altă autoritate locală adecvată), companiei de transport aerian, după caz, pierderea sau prejudiciul suferit în legatură cu bagajele, documentele, echipamentul sportiv, în 24 de ore de la descoperire şi să obţină un raport scris; să respecte termenele de notificare precizate în condiţiile de transport;
+e. sa se conformeze cu termenii contractului agentiei de turism, tour-operatorului, furnizorului de transport;
+f. să prezinte / furnizeze toate documentele şi informaţiile solicitate de OMNIASIG VIENNA INSURANCE care certifică producerea riscului asigurat şi cele necesare evaluării, stabilirii şi plăţii despăgubirii / indemnizaţiei
+f.1 orice certificat / raport medical care să ateste diagnosticul şi tratamentul urmat sau invaliditatea permanentă, bilete de internare / externare din spital, reţete medicale prescrise;
+f.2 certificat de deces / medical constatator incluzând cauza decesului;
+f.3 proces verbal / act constatator întocmit de poliţie / companie de asistenţă rutieră sau altă instituţie abilitată să constate / investigheze producerea evenimentului (poliţie, pompieri etc.);
+f.4 dovada declarării de către Asigurat la autorităţile competente locale, compania de transport a furtului, tâlhăriei sau pierderii documentelor / bagajelor / echipamentelor sportive de agrement;
+f.5 copia contractului de comercializare a serviciilor turistice;
+f.6 documente justificative necesare decontării cheltuielilor acoperite efectuate;
+
+8. OBLIGAŢIILE ASIGURATULUI / CONTRACTANTULUI
+8.1.2. În cazul producerii sau apariţiei oricărui eveniment asigurat:
+f. să prezinte / furnizeze toate documentele şi informaţiile solicitate de OMNIASIG VIENNA INSURANCE care certifică producerea riscului asigurat şi cele necesare evaluării, stabilirii şi plăţii despăgubirii / indemnizaţiei
+f.7 biletele de transport în original;
+f.8 chitanţe / facturi sau dovezi privind proprietatea bunurilor pierdute, furate sau avariate pentru fundamentarea dreptului de a pretinde despăgubiri
+f.9 documentul privind înregistrarea bagajelor la preluare, raportul scris al companiei de transport privind întârzierea bagajelor înregistrate sau a mijlocului de transport rezervat;
+f.10 confirmarea de primire de către banca emitentă a cardului a avizului de pierdere sau furt, plângerile depuse la Poliţie şi copia documentului bancar care atestă valoarea sumelor debitate;
+f.11 decizia definitivă şi irevocabilă privind plata despăgubirilor pentru secţiunea de răspundere civilă (dacă nu s-a soluţionat pe cale amiabilă);
+f.12 facturi / chitanţe, orice alte documente justificative pentru decontarea cheltuielilor acoperite prin Poliţă etc;
+În cazul documentelor originale emise într-o limbă străină pentru care OMNIASIG VIENNA INSURANCE GROUP solicită traducere autorizată în limba română, costul traducerii este suportat de către OMNIASIG VIENNA INSURANCE GROUP.
+
+8. OBLIGAŢIILE ASIGURATULUI / CONTRACTANTULUI
+8.1.2. În cazul producerii sau apariţiei oricărui eveniment asigurat:
+g. să păstreze bunurile avariate / distruse, în scopul evaluării corecte a daunei / resturilor valorificabile;
+h. să ia, potrivit cu împrejurările, toate măsurile justificate şi rezonabile pentru limitarea prejudiciilor (exemple: în cazul întreruperii călătoriei, să utilizeze tichetul / biletul original de transport sau să solicite reconfirmarea acestuia; în cazul răspunderii civile, să nu facă nici o ofertă, promisiune, tranzacţie sau plată şi să se apere în proces ţinând seama şi de eventualele recomandări făcute de OMNIASIG VIENNA INSURANCE GROUP, inclusiv cu privire la angajarea unui apărător în toate fazele procesuale; în cazul pierderii / furtului cardului bancar, să solicite băncii emitente, în scris, blocarea contului de card în maximum 12 ore de la momentul producerii pierderii / furtului cardului bancar sau de la momentul constatării acestui fapt);
+i. să facă dovada datei de începere şi finalizare a călătoriei;
+j. să depună documentele necesare instrumentării daunei într-un termen de maxim 90 de zile de la data producerii evenimentului asigurat;
+k. să ia toate măsurile şi să îndeplinească toate formalităţile pentru conservarea dreptului la regres al OMNIASIG VIENNA INSURANCE GROUP faţă de terţii vinovaţi de producerea prejudiciului;
+l. să ramburseze Asigurătorului orice sume luate în calculul despăgubirii şi recuperate de Asigurat ulterior plăţii acesteia.
+
+8. OBLIGAŢIILE ASIGURATULUI / CONTRACTANTULUI
+În cazul neîndeplinirii obligaţiilor prevăzute la art. 8.1:
+(i) Poliţa este lovită de nulitate absolută în caz de declaraţie inexactă sau de reticenţă făcută cu rea-credinţă de către Asigurat sau Contractant cu privire la împrejurări care, dacă ar fi fost cunoscute de către OMNIASIG VIENNA INSURANCE GROUP, ar fi determinat-o pe aceasta din urmă să nu încheie Poliţa ori să nu o încheie în condiţiile respective, chiar dacă declaraţia sau reticenţa nu a avut influenţă asupra producerii evenimentului asigurat. Primele de asigurare plătite rămân dobândite de OMNIASIG VIENNA INSURANCE GROUP care, de asemenea, poate cere şi plata primelor cuvenite până la momentul la care a luat cunoştinţă de cauza de nulitate absolută;
+(ii) în caz de declaraţie inexactă sau de reticenţă făcută din culpă de către Asigurat sau Contractant, constatată înainte de producerea evenimentului asigurat, cu privire la împrejurări care, dacă ar fi fost cunoscute de către OMNIASIG VIENNA INSURANCE GROUP, ar fi determinat-o pe aceasta din urmă să nu încheie Poliţa ori să nu o încheie în condiţiile respective, OMNIASIG VIENNA INSURANCE GROUP are dreptul de a lua una dintre următoarele măsuri:
+- menţinerea în vigoare a Poliţei, solicitând modificarea termenilor şi condiţiilor Poliţei (inclusiv majorarea corespunzătoare a primei de asigurare);
+- rezilierea Poliţei la împlinirea unui termen de 10 zile calendaristice calculate de la notificarea primită de Asigurat sau Contractant în acest sens, restituindu-i acestuia din urmă partea din primele de asigurare plătite, aferentă perioadei ulterioare rezilierii, exceptând situaţia în care s-au plătit deja despăgubiri / indemnizaţii sau sunt avizate evenimente în baza Poliţei;
+
+8. OBLIGAŢIILE ASIGURATULUI / CONTRACTANTULUI
+În cazul neîndeplinirii obligaţiilor prevăzute la art. 8.1:
+(iii) în caz de declaraţie inexactă sau de reticenţă făcută din culpă de către Asigurat sau Contractant, constatată după producerea evenimentului asigurat, cu privire la împrejurări care, dacă ar fi fost cunoscute de către OMNIASIG VIENNA INSURANCE GROUP, ar fi determinat-o pe aceasta din urmă să nu încheie Poliţa ori să nu o încheie în condiţiile respective, OMNIASIG VIENNA INSURANCE GROUP are dreptul să reducă despăgubirea / indemnizaţia în raport cu proporţia dintre nivelul primelor de asigurare plătite şi nivelul primelor de asigurare ce ar fi trebuit să fie plătite dacă OMNIASIG VIENNA INSURANCE GROUP ar fi cunoscut respectivele împrejurări.
+(iv) în alte cazuri decât cele stabilite mai sus, OMNIASIG VIENNA INSURANCE GROUP are dreptul:
+- să rezilieze Poliţa prin notificare scrisă transmisă Asiguratului sau Contractantului în acest sens, rezilierea devenind efectivă fără alte formalităţi sau intervenţia instanţelor de judecată, începând cu ora 0.00 a zilei următoare datei primirii notificării de către Asigurat sau Contractant;
+
+8. OBLIGAŢIILE ASIGURATULUI / CONTRACTANTULUI
+În cazul neîndeplinirii obligaţiilor prevăzute la art. 8.1:
+(iv) în alte cazuri decât cele stabilite mai sus, OMNIASIG VIENNA INSURANCE GROUP are dreptul:
+- să propună modificarea Poliţei, inclusiv cu ajustarea corespunzătoare a primei de asigurare; dacă Asiguratul sau Contractantul nu-şi exprimă acordul în termen de 5 zile calendaristice de la data primirii solicitării de modificare, Poliţa se reziliază fără alte formalităţi sau intervenţia instanţelor de judecată cu efect de la aceeaşi dată;
+În aceste situaţii, Asiguratul sau Contractantul are dreptul la restituirea părţii din primele de asigurare achitate aferente perioadei ulterioare rezilierii, exceptând situaţia în care s-au plătit deja despăgubiri sau sunt avizate evenimente în baza Poliţei;
+- să refuze plata despăgubirii / indemnizaţiei, integral sau parţial, corespunzător influenţei obligaţiilor neîndeplinite asupra producerii evenimentului asigurat, majorării prejudiciului şi/sau stabilirii despăgubirii. În cazul nerespectării de către Asigurat sau Contractant a obligaţiei de comunicare a producerii evenimentului asigurat în termenul stabilit prin Poliţă, OMNIASIG VIENNA INSURANCE GROUP are dreptul să refuze plata despăgubirii / indemnizației, dacă din acest motiv nu a putut determina cauza producerii evenimentului asigurat şi întinderea daunei.
+
+8. OBLIGAŢIILE ASIGURATULUI / CONTRACTANTULUI
+8.3. În cazul în care Poliţa este semnată de un Contractant, acesta va trebui să respecte obligaţiile care derivă din Poliţă, în afara celor care prin natura lor nu pot fi respectate decât de Asigurat.
+8.4. Asiguratului / Beneficiarului îi este opozabilă neîndeplinirea de către Contractant a obligaţiilor asumate prin prezenta Poliţă.
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.1 Constatarea şi evaluarea daunelor se fac de către OMNIASIG VIENNA INSURANCE GROUP, direct sau prin împuterniciţi, împreună cu Asiguratul sau împuterniciţii săi, terţul păgubit, inclusiv prin experţi, în baza documentelor şi informaţiilor furnizate de Asigurat
+9.2. Valoarea despăgubirii / indemnizaţiei cuvenite în conformitate cu prevederile fiecărei Secţiuni nu va depăşi suma asigurată aferentă acelei Secţiuni şi nici cuantumul prejudiciului suferit
+
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.3. Cuantumul prejudiciului reprezintă (cu respectarea sublimitelor aplicabile menţionate în Poliţă):
+9.3.1. pentru Secţiunea I - ASISTENŢĂ MEDICALĂ DE URGENŢĂ: contravaloarea cheltuielilor medicale şi/sau contravaloarea cheltuielilor de repatriere şi/sau acheltuielilor acoperite conform prevederilor art. 3.2.1.;
+9.3.2. pentru Secţiunea II - ACCIDENTE PERSOANE: suma asigurată, indemnizaţia de spitalizare şi/sau contravaloarea cheltuielilor medicale acoperite conform prevederilor art. 3.2.2.
+9.3.3. pentru Secţiunea III - BAGAJE:
+- în cazul pierderii, distrugerii sau avarierii bagajelor - cea mai mică valoare dintre costul reparaţiei (utilizându-se materiale / părţi componente de acelaşi fel, calitate, parametri funcţionali) şi valoarea bunului (preţul de achiziţie a unui bun identic / similar diminuat, în cazul bunurilor a căror vechime este mai mare de 12 luni, cu deprecierea valorică, stabilită conform evaluării OMNIASIG VIENNA INSURANCE GROUP în funcţie de uzură, vechime, întrebuinţare, din care se scade valoarea elementelor recuperabile / valorificabile;
+- în cazul întârzierii - costurile suplimentare generate de cumpărarea unor articole personale strict necesare şi cele legate de urgentarea recuperării bagajelor întârziate;
+
+
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.3. Cuantumul prejudiciului reprezintă (cu respectarea sublimitelor aplicabile menţionate în Poliţă):
+9.3.4. pentru Secţiunea IV - RĂSPUNDERE CIVILĂ: sumele pe care Asiguratul este obligat să le plătească persoanelor păgubite cu titlu de despăgubiri, în baza legii ţării în care călătoreşte Asiguratul şi cheltuieli de judecată, după caz.
+9.3.5. pentru Secţiunea V - DOCUMENTE: costurile necesare şi rezonabile privind înlocuirea (temporară, după caz) documentelor asigurate pierdute / furate, constând în cheltuieli aferente comunicării pentru consiliere în ceea ce priveşte demersurile ce trebuie efectuate (exemple: coordonarea contactelor cu autorităţile consulare, în cazul pierderii paşaportului) şi cheltuieli suplimentare efectuate pentru transport / cazare, în localitatea din teritoriul asigurat în care se emit documentele, inclusiv taxe de emitere a noilor documente în ţara producerii evenimentului asigurat.
+9.3.6. pentru Secţiunea VI - ANULAREA CĂLĂTORIEI: costuri / cheltuieli reprezentând sumele cu titlu de preţ al contractelor de servicii de călătorie achitate de Asigurat sau în numele acestuia pănă la data producerii evenimentului care a generat anularea călătoriei şi care nu mai pot fi recuperate de la furnizorii cu care are incheiate respectivele contracte (agenţia de turism, tour-operatorul şi/sau furnizorul de transport sau cazare) conform condiţiilor de retragere / anulare prevăzute în acestea (penalităţi contractuale);
+
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.3. Cuantumul prejudiciului reprezintă (cu respectarea sublimitelor aplicabile menţionate în Poliţă):
+9.3.7. pentru Secţiunea VII - ÎNTRERUPEREA CĂLĂTORIE: sumele plătite aferente serviciilor neutilizate (exemple: hotelul, autovehiculul închiriat, excursii) conform contractelor de servicii de călătorie încheiate cu agenţia de turism, tour-operatorul şi/sau furnizorul de transport sau cazare (calculate pro-rata pentru numărul de zile aferent perioadei dintre data întoarcerii în România şi data întoarcerii programate iniţial) şi cheltuielile suplimentare de transport (în condiţii similare celor rezervate iniţial şi agreate în prealabil de către OMNIASIG VIENNA INSURANCE GROUP) efectuate în scopul întoarcerii în România;
+9.3.8. pentru Secţiunea VIII - RATAREA PLECĂRII: cheltuielile necesare, efectuate în legătură cu:
+- servicii hoteliere (prima noapte de cazare), alimente, convorbiri telefonice strict necesare, transferul la/de la hotel;
+- cheltuieli de călătorie implicate pentru reprogramarea curselor de legătură în afara ţării de reşedinţă (România) pentru a ajunge la destinaţia iniţială programată sau pentru revenirea în România – în condiţii similare celor rezervate iniţial;
+9.3.9. pentru Secţiunea IX - TRANZACŢII FRAUDULOASE: valoarea sumelor debitate, precum şi cheltuielile de avizare a băncii emitente şi de înlocuire a cardului pierdut / furat;
+9.3.10. pentru Secţiunea X - FRANŞIZA CASCO: costul reparaţiei autovehiculului închiriat sau valoarea franşizei pe care Asiguratul este obligat să o plătească (oricare este mai mică);
+
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.3. Cuantumul prejudiciului reprezintă (cu respectarea sublimitelor aplicabile menţionate în Poliţă):
+9.3.11. pentru Secţiunea XI – ANIMALE DE COMPANIE: costurile / cheltuielile efectuate acoperite conform prevederilor art. 3.2.11.
+9.3.12. pentru Secţiunea XII – SERVICII DOMESTICE: costurile / cheltuielile efectuate cu serviciile de curăţenie şi/sau menaj acoperite conform prevederilor art. 3.2.12.
+9.3.13. pentru Secţiunea XIII – PROTECŢIE JURIDICĂ: contravaloarea cheltuielilor efectuate de Asigurat cu procedura judiciară într-un proces civil şi alte cheltuieli determinate de reprezentare şi asistenţă juridică în legătură cu recuperarea prejudiciilor suferite de Asigurat;
+Asiguratul este obligat să ramburseze orice costuri juridice plătite drept despăgubire până la nivelul sumelor recuperate drept compensaţie de către Asigurat (inclusiv avocatul Asiguratului).
+
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.3. Cuantumul prejudiciului reprezintă (cu respectarea sublimitelor aplicabile menţionate în Poliţă):
+9.3.14. pentru Secţiunea XIV – SPORTURI DE AGREMENT:
+- pentru echipamentele sportive: cea mai mică valoare dintre costul reparaţiei (utilizându-se materiale / părţi componente de acelaşi fel, calitate, parametri funcţionali) şi valoarea bunului stabilit la momentul producerii evenimentului asigurat (preţul de achiziţie a unui bun identic sau similar diminuat, în cazul bunurilor a căror vechime este mai mare de 12 luni, cu deprecierea valorică, stabilită conform evaluării OMNIASIG VIENNA INSURANCE GROUP în funcţie de uzură, vechime, întrebuinţare), din care se scade valoarea elementelor recuperabile / valorificabile;
+- pentru închiriere: costurile de închiriere a echipamentului sportiv;
+- pentru întreruperea pachetului de servicii sportive şi/sau de agrement : costurile irecuperabile aferente pachetului de servicii de ski contractat şi neutilizat, chirie echipament, card teleferic, şcoala de ski etc.)
+
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.4. Despăgubirea / Indemnizaţia va fi plătită Asiguratului / Beneficiarului (în cazul în care nu se aplică procedura decontării directe între OMNIASIG VIENNA INSURANCE GROUP şi furnizorul de servicii medicale – pentru Secţiunea I – ASISTENŢĂ MEDICALĂ DE URGENŢĂ):
+- în lei la cursul de schimb B.N.R. de la data producerii evenimentului asigurat;
+- în termen de 15 zile calendaristice de la data primirii de către OMNIASIG VIENNA INSURANCE GROUP a ultimului document necesar instrumentării daunei, document care trebuie depus nu mai târziu de împlinirea termenului maxim de completare a dosarului de daună de către Asigurat sau Beneficiar conform art. 8.1.2. (ix).
+
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.5 OMNIASIG VIENNA INSURANCE GROUP este îndreptăţită
+9.5.1. să suspende instrumentarea dosarului de daună până la finalizarea procesului penal dacă, în legătură cu producerea sau apariţia oricărui eveniment asigurat a început urmărirea penală împotriva Asiguratului, Contractantului sau Beneficiarului;
+9.5.2. să desfăşoare investigaţii, să efectueze cercetări (inclusiv expertize) prin orice mijloace legale (direct sau prin persoane autorizate) având ca scop stabilirea realității, cauzelor și împrejurărilor producerii evenimentului asigurat, precum și mărimea pagubei, dacă există suspiciuni întemeiate cu privire la aceste aspecte; OMNIASIG VIENNA INSURANCE GROUP va notifica în scris Asiguratul / Contractantul / Beneficiarul despre începerea investigațiilor / cercetărilor mai sus-menționate în termen de 15 zile calendaristice de la data demarării acestora, urmând, de asemenea, să notifice Asiguratului / Contractantului / Beneficiarului rezultatul investigațiilor în termen de 15 zile de la finalizarea acestora; termenul de finalizare a investigațiilor / cercetărilor depinde de eventualele proceduri legale implicate, precum și de complexitatea respectivelor investigații și/sau cercetări.
+
+9. CONSTATAREA ŞI EVALUAREA PREJUDICIILOR; STABILIREA ŞI PLATA DESPĂGUBIRILOR / INDEMNIZAŢIILOR
+9.5 OMNIASIG VIENNA INSURANCE GROUP este îndreptăţită
+9.5.3. să nu acorde despăgubiri / indemnizaţii dacă:
+(i) Asiguratul, Contractantul sau Beneficiarul este de rea credinţă în sensul că în declaraţiile acestuia sau ale reprezentanţilor acestuia, care sunt făcute cu ocazia avizării daunei şi/sau în timpul instrumentării se constată neadevăruri, falsuri, aspecte frauduloase sau omisiuni care conduc la inducerea în eroare a OMNIASIG VIENNA INSURANCE GROUP;
+(ii) Asiguratul sau Beneficiarul nu poate justifica dreptul său la plata despăgubirii / indemnizaţiei;
+(iii) rezultatele obţinute în urma investigaţiilor şi/sau cercetărilor efectuate de către OMNIASIG VIENNA INSURANCE GROUP denotă aspecte frauduloase, contrazic declaraţiile referitoare la cauzele şi împrejurările producerii evenimentului asigurat sau în legătură cu daună.
+9.6. Prin plata despăgubirii / indemnizaţiei se sting orice pretenţii ale Asiguratului / Beneficiarului faţă de OMNIASIG VIENNA INSURANCE GROUP, în legătură cu evenimentul respectiv.
+
+10. ALTE ASIGURĂRI
+10.1. După producerea sau apariţia unui eveniment asigurat, Asiguratul are obligaţia să înştiinţeze în scris OMNIASIG VIENNA INSURANCE GROUP, cu ocazia avizării producerii sau apariţiei evenimentului asigurat, despre existenţa oricărei alte asigurări (contractată de către Asigurat sau în numele acestuia) în vigoare la data producerii sau apariţiei evenimentului asigurat, având obiectul asigurării, riscurile şi costurile / cheltuielile acoperite parţial sau în totalitate similare cu cele asigurate prin prezenta Poliţă. În situația în care există astfel de asigurări (excepție Secțiunea II – Accidente Persoane):
+- în cazul asigurării de bunuri, OMNIASIG VIENNA INSURANCE GROUP nu va plăti mai mult decât partea sa proporțională;
+- în cazul celorlalte tipuri de asigurări, Polița validează și produce efecte doar pentru eventuala diferență de despăgubire rămasă neacoperita în baza celorlalte asigurări.
+
+11. ÎNCETARE / REZILIERE; NOTIFICĂRI / COMUNICĂRI
+11.1. În cazul în care Asiguratul sau Contractantul este de rea-credinţă (excepţie în situaţia în care Poliţa este lovită de nulitate absolută), OMNIASIG VIENNA INSURANCE GROUP are dreptul să rezilieze Poliţa, fără restituirea primei de asigurare, rezilierea devenind efectivă de la data primirii notificării de Asigurat sau Contractant în acest sens.
+11.2. În cazul în care Poliţa încetează ca urmare a imposibilităţii producerii riscurilor asigurate sau dispariţiei interesului asigurat, prima de asigurare datorată va fi cea aferentă perioadei în care Poliţa de asigurare a fost valabilă, excepţie fiind situaţia în care s-au plătit deja despăgubiri sau sunt avizate daune în baza Poliţei încetate pentru care se aplică prevederile art. 11.3 (i) de mai jos.
+
+11. ÎNCETARE / REZILIERE; NOTIFICĂRI / COMUNICĂRI
+11.3. În cazul încetării Poliţei din orice motiv (denunţare, încetare de drept, reziliere etc.):
+(i) în situaţia în care s-au plătit deja despăgubiri sau sunt avizate prejudicii în baza Poliţei încetate, prevederile acesteia se aplică pentru toate evenimentele asigurate survenite înainte de data încetării, până la lichidarea definitivă a acestora şi OMNIASIG VIENNA INSURANCE GROUP nu restituie prime de asigurare. Asiguratul / Contractantul datorează plata primei de asigurare pentru întreaga perioadă pentru care s-a încheiat Poliţa.
+(ii) în celelalte situaţii, OMNIASIG VIENNA INSURANCE GROUP va restitui Asiguratului / Contractantului, la cerere, diferenţa dintre prima plătită de acesta şi prima datorată pentru perioada anterioară încetării, dacă nu se prevede altfel, în mod expres, prin prezentele condiţii de asigurare. Prima de asigurare datorată se calculează ”pro-rata temporis”, în funcţie de numărul de zile cuprinse în asigurare.
+
+11. ÎNCETARE / REZILIERE; NOTIFICĂRI / COMUNICĂRI
+11.4 Orice notificare, comunicare, avizare sau înştiinţare în legătură cu încheierea, executarea, modificarea sau încetarea contractului de asigurare se consideră efectuată dacă va fi transmisă în scris, prin unul din următoarele mijloace:
+(i) scrisoare cu confirmare de primire trimisă la adresa Asiguratului / Contractantului menţionată în Poliţă sau, în cazul în care aceasta a fost schimbată, la ultima adresă comunicată de către Asigurat / Contractant, iar în cazul OMNIASIG VIENNA INSURANCE GROUP, la adresa unităţii OMNIASIG VIENNA INSURANCE GROUP cu care Asiguratul / Contractantul a încheiat Poliţa, respectiv, după caz, adresa Sucursalei / Agenţiei sau a Centralei;
+(ii) prin înmânare directă, astfel:
+- depunere la registratura unităţii OMNIASIG VIENNA INSURANCE GROUP cu care Asiguratul / Contractantul a încheiat Poliţa, respectiv, după caz, Sucursala / Agenţia sau Centrala OMNIASIG VIENNA INSURANCE GROUP;
+- prin semnătură de primire, în cazul Asiguratului.
+(iii) prin fax, astfel:
+- Asiguratul / Contractantul va transmite notificările la numărul de fax al unităţii OMNIASIG VIENNA INSURANCE GROUP cu care Asiguratul / Contractantul a încheiat Poliţa, respectiv, Centrala, iar OMNIASIG VIENNA INSURANCE GROUP va transmite notificarea la numărul de fax al Asiguratului / Contractantului comunicat la momentul încheierii Poliței ;
+- Notificările transmite pe fax până în ora 17.00 vor fi considerate primite în aceeași zi, iar cele transmise după această oră vor fi considerate primite și vor fi înregistrate în următoarea zi lucrătoare;
+(iv) prin mijloace electronice (e-mail) la adresa comunicată de părți la momentul încheierii Poliței
+
+12. SUBROGARE
+12.1. Prin plata despăgubirilor şi în limita acestora, OMNIASIG VIENNA INSURANCE GROUP este subrogat în toate drepturile Asiguratului sau Beneficiarului contra persoanelor răspunzătoare de producerea prejudiciului ori de mărirea acestuia, pentru partea de prejudiciu care s-a mărit, cu excepţia asigurărilor de persoane.
+12.2. Asiguratul şi/sau Beneficiarul răspund faţă de OMNIASIG VIENNA INSURANCE GROUP pentru prejudiciile aduse prin acte care ar împiedica exercitarea dreptului de regres împotriva persoanelor răspunzătoare de prejudiciul ori de mărirea acestuia, pentru partea de prejudiciu care s-a mărit.
+12.3. Dacă Asiguratul sau, după caz, Beneficiarul renunţă prin orice modalitate juridică la drepturile sale de despăgubire faţă de terţii răspunzători sau face o tranzacţie, despăgubirea / indemnizaţia ce s-ar cuveni Asiguratului sau, după caz, Beneficiarului, se va reduce în mod corespunzător cu sumele care au făcut obiectul acestor acte juridice. Dacă plata despăgubirii / indemnizaţiei a fost deja efectuată, Asiguratul sau, după caz, Beneficiarul, este obligat să înapoieze despăgubirea / indemnizaţia încasată.
+
+13. FORŢA MAJORĂ ŞI CAZUL FORTUIT
+13.1. Dacă legea nu prevede contrariul, părţile vor fi exonerate de răspundere în condiţiile în care vor dovedi că nerespectarea obligaţiilor asumate se datorează forţei majore sau cazului fortuit.
+14. LEGISLAŢIE
+14.1. Persoanele care obţin sau încearcă prin orice mijloace să obţină pe nedrept despăgubiri din asigurare sau cei care înlesnesc asemenea fapte, se pedepsesc potrivit legii penale ori de câte ori fapta întruneşte elementele unei infracţiuni.
+14.2. Asigurarea încheiată potrivit prevederilor Poliţei este supusă legilor din România, acestea completându-se cu prevederile legale în vigoare de drept comun, precum și cele specifice asigurărilor.
+14.3. În vederea protejării asiguraţilor, beneficiarilor asigurării şi terţelor persoane păgubite, prin contribuţia asigurătorilor există Fondul de garantare destinat plăţilor de indemnizaţii rezultate din contractele de asigurare facultative şi obligatorii, încheiate în condiţiile legii, în cazul declarării falimentului asigurătorului.
+15. LITIGII
+15.1. Orice litigiu în legătură cu aplicarea Poliţei se rezolvă prin conciliere directă între părţi sau, în cazul în care acest lucru nu este posibil, de către instanţele judecătoreşti competente din România.
