@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  /* background-color: aquamarine; */
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  word-wrap: break-word;
+  align-items: center;
+}
+
+.editButton {
+  margin-left: 10px;
+  padding: 2px 8px;
+  width: fit-content;
+  background-color: #87b9ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: -20px;
+  bottom: -5px;
+}
+
+.editButton:hover {
+  background-color: #5d9bff;
+}
+
+.saveNotButton {
+  margin: 5px;
+  padding: 5px 10px;
+  width: fit-content;
+  background-color: #1582ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* position: absolute;
+  left: -20px;
+  bottom: -5px; */
+}
+
+.saveNotButton:hover {
+  background-color: #0074f9;
+}
+
+.user {
+  background-color: #1787fe;
+  color: white;
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bot {
+  background-color: #e5e5e5;
+  color: black;
+  align-self: flex-start;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.editButton::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: transparent;
+  pointer-events: all;
+}
+
+.bot:hover {
+  background-color: #d7d7d7;
+}

@@ -5,9 +5,12 @@
   "build": "react-scripts build && mv build ../server/",
   "dependencies": {
     "cra-template-typescript": "1.2.0",
+    "firebase": "^11.2.0",
+    "prettier": "^3.4.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "uuid": "^11.0.5",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -36,6 +39,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3"
+    "@types/react-dom": "^19.0.3",
+    "typescript-plugin-css-modules": "^5.1.0"
   }
 }
