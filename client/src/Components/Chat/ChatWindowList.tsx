@@ -5,9 +5,13 @@ import styles from "./ChatWindowList.module.css";
 import ChatWindowItem from "./ChatWindowItem";
 import { insertMessage } from "../../services/firebase";
 import { v7 } from "uuid";
+import { useLoading } from "../../context/LoadingContext";
 
 const ChatWindow: React.FC = () => {
   const chatContext = useContext(ChatContext);
+  const { showLoading, hideLoading } = useLoading();
+
+  // TODO change it to use like in loading
   if (!chatContext) return null;
 
   const { chats, activeChatId, addMessageToChat } = chatContext;
@@ -19,15 +23,35 @@ const ChatWindow: React.FC = () => {
     );
 
   const handleSendMessage = async (text: string) => {
-    if (activeChatId) {
-      addMessageToChat(activeChatId, text, "user");
-      await insertMessage({
-        id: v7(),
-        text,
-        sender: "user",
-        version: activeChatId,
-      });
-    }
+    addMessageToChat(activeChatId, text, "user");
+    showLoading();
+    await insertMessage({
+      id: v7(),
+      text,
+      sender: "user",
+      version: activeChatId,
+    });
+    console.log("request Made to server");
+    const response = await fetch("http://localhost:8080/api/openai", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ query: text }),
+    });
+    console.log("request arrived from server");
+    const { answer } = await response?.json();
+
+    hideLoading();
+
+    addMessageToChat(activeChatId, answer, "bot");
+
+    await insertMessage({
+      id: v7(),
+      text: answer,
+      sender: "bot",
+      version: activeChatId,
+    });
   };
 
   return (

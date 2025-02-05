@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import path from "path";
+import { getAnswer } from "./openai";
 
 const app = express();
 const port = process.env.PORT || 8080;
@@ -15,8 +16,18 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // API route example
+app.post("/api/openai", async (req, res) => {
+  res.setHeader("Content-Type", "application/json");
+  const { query } = req.body;
+  console.log("query", query);
+  const answer = await getAnswer(query);
+  // console.log("answer", answer);
+  res.send({ answer });
+});
+
 app.get("/api", (req, res) => {
-  res.json({ message: "Hello from Express!" });
+  res.setHeader("Content-Type", "application/json");
+  res.send({ express: "Hello From Express" });
 });
 
 // Handle React routing in production

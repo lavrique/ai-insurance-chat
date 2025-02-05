@@ -35,6 +35,8 @@ interface ChatContextType {
     text: string,
     sender: "user" | "bot",
   ) => void;
+  setIsLoading: (isLoading: boolean) => void;
+  isLoading: boolean;
 }
 
 export const ChatContext = createContext<ChatContextType | undefined>(
@@ -46,12 +48,12 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
 }) => {
   const [chats, setChats] = useState<Chat[]>([]);
   const [activeChatId, setActiveChatId] = useState<ChatVersion>("");
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
     const getAllMessagesCallback = async () => {
       const messages = await getAllMessages();
       const grouped = messages
-        .reverse()
         .reduce<{ [key: ChatVersion]: Message[] }>((acc, item) => {
           if (!acc[item.version]) {
             acc[item.version] = []; // Initialize array if it doesn't exist
@@ -119,6 +121,8 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
         // addNewChat,
         setActiveChat,
         addMessageToChat,
+        setIsLoading,
+        isLoading,
       }}
     >
       {children}

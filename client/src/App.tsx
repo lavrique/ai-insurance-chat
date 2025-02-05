@@ -1,12 +1,13 @@
-import React, { useEffect } from "react";
-import styles from "./App.module.css";
 import ChatPage from "./pages/ChatPage";
 import { ChatProvider } from "./context/ChatContext";
+import { LoadingProvider } from "./context/LoadingContext";
 
 function App() {
   return (
     <ChatProvider>
-      <ChatPage />
+      <LoadingProvider>
+        <ChatPage />
+      </LoadingProvider>
     </ChatProvider>
   );
 }
