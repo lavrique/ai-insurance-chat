@@ -1,36 +1,46 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import ChatInput from "./ChatInput";
-import { ChatContext } from "../../context/ChatContext";
-import styles from "./ChatWindowList.module.css";
-import ChatWindowItem from "./ChatWindowItem";
+import { ChatContext, useChatContext } from "../../context/ChatContext";
+import styles from "./MessageList.module.css";
+import MessageItem from "./MessageItem";
 import { insertMessage } from "../../services/firebase";
 import { v7 } from "uuid";
-import { useLoading } from "../../context/LoadingContext";
+import { useLoadingContext } from "../../context/LoadingContext";
 
-const ChatWindow: React.FC = () => {
-  const chatContext = useContext(ChatContext);
-  const { showLoading, hideLoading } = useLoading();
+const MessageList: React.FC = () => {
+  const messagesEndRef = useRef<HTMLDivElement | null>(null);
+  const { showLoading, hideLoading } = useLoadingContext();
+  const chatContext = useChatContext();
 
-  // TODO change it to use like in loading
-  if (!chatContext) return null;
+  // Function to scroll to bottom
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   const { chats, activeChatId, addMessageToChat } = chatContext;
   const activeChat = chats.find((chat) => chat.id === activeChatId);
+
+  useEffect(() => {
+    if ((activeChat?.messages?.length ?? 0) > 0) {
+      setTimeout(scrollToBottom, 100); // Delay to allow rendering
+      scrollToBottom();
+    }
+  }, [activeChat?.messages]);
 
   if (!activeChat)
     return (
       <p className={styles.noChat}>Select a chat to start messaging.</p>
     );
 
-  const handleSendMessage = async (text: string) => {
-    addMessageToChat(activeChatId, text, "user");
+  const handleOnSendMessage = async (text: string) => {
     showLoading();
-    await insertMessage({
+    const idQuestion = await insertMessage({
       id: v7(),
       text,
       sender: "user",
       version: activeChatId,
     });
+    addMessageToChat(idQuestion, activeChatId, text, "user");
     console.log("request Made to server");
     const response = await fetch("http://localhost:8080/api/openai", {
       method: "POST",
@@ -44,21 +54,21 @@ const ChatWindow: React.FC = () => {
 
     hideLoading();
 
-    addMessageToChat(activeChatId, answer, "bot");
-
-    await insertMessage({
+    const idAnser = await insertMessage({
+      // TODO delete this id. it will be retireved rom the document
       id: v7(),
       text: answer,
       sender: "bot",
       version: activeChatId,
     });
+    addMessageToChat(idAnser, activeChatId, answer, "bot");
   };
 
   return (
     <div className={styles.chatWindow}>
       <div className={styles.messages}>
         {activeChat.messages.map((msg) => (
-          <ChatWindowItem
+          <MessageItem
             key={msg.id}
             id={msg.id}
             sender={msg.sender}
@@ -67,10 +77,11 @@ const ChatWindow: React.FC = () => {
             version={msg.version}
           />
         ))}
+        <div ref={messagesEndRef} />
       </div>
-      <ChatInput onSendMessage={handleSendMessage} />
+      <ChatInput onSendMessage={handleOnSendMessage} />
     </div>
   );
 };
 
-export default ChatWindow;
+export default MessageList;

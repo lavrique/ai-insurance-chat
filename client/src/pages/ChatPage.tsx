@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./chat.module.css";
 import ChatList from "../Components/Sidebar/ChatList";
-import ChatWindow from "../Components/Chat/ChatWindowList";
+import MessageList from "../Components/Chat/MessageList";
 import { getAllMessages } from "../services/firebase";
 
 const ChatPage: React.FC = () => {
@@ -14,7 +14,7 @@ const ChatPage: React.FC = () => {
 
       {/* Main Chat Window */}
       <main className={styles["chat-main"]}>
-        <ChatWindow />
+        <MessageList />
       </main>
     </div>
   );

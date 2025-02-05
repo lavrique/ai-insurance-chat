@@ -4,6 +4,7 @@ import React, {
   ReactNode,
   use,
   useEffect,
+  useContext,
 } from "react";
 import { getAllMessages } from "../services/firebase";
 import { v7 } from "uuid";
@@ -31,6 +32,7 @@ interface ChatContextType {
   // addNewChat: () => void;
   setActiveChat: (id: string) => void;
   addMessageToChat: (
+    id: string,
     chatId: string,
     text: string,
     sender: "user" | "bot",
@@ -53,14 +55,17 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
   useEffect(() => {
     const getAllMessagesCallback = async () => {
       const messages = await getAllMessages();
-      const grouped = messages
-        .reduce<{ [key: ChatVersion]: Message[] }>((acc, item) => {
+      console.log("debug --- messages response", messages);
+      const grouped = messages.reduce<{ [key: ChatVersion]: Message[] }>(
+        (acc, item) => {
           if (!acc[item.version]) {
             acc[item.version] = []; // Initialize array if it doesn't exist
           }
           acc[item.version].push(item);
           return acc;
-        }, {});
+        },
+        {},
+      );
 
       // Convert the grouped object into the desired array structure
       const containerItems = Object.entries(grouped).map(
@@ -71,7 +76,6 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
         }),
       );
 
-      console.log("debug --- chats", containerItems);
       setChats(containerItems);
       setActiveChat(containerItems[0].id);
     };
@@ -93,6 +97,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
   };
 
   const addMessageToChat = (
+    id: string,
     chatId: ChatVersion,
     text: string,
     sender: "user" | "bot",
@@ -104,7 +109,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
               ...chat,
               messages: [
                 ...chat.messages,
-                { id: v7(), text, sender, version: chatId },
+                { id, text, sender, version: chatId },
               ],
             }
           : chat,
@@ -129,3 +134,11 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
     </ChatContext.Provider>
   );
 };
+
+export const useChatContext = () => {
+  const context = useContext(ChatContext);
+  if (!context) {
+    throw new Error("useChatContext must be used within a ChatProvider");
+  }
+  return context;
+}

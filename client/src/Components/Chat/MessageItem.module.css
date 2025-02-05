@@ -6,13 +6,38 @@
 .message {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   margin-bottom: 10px;
   max-width: 100%;
   word-wrap: break-word;
-  align-items: center;
+  /* align-items: center; */
+  /* text-align: start; */
 }
+
+.user {
+  background-color: #1787fe;
+  color: white;
+  width: 80%;
+  justify-content: flex-end;
+  /* align-self: flex-start; */
+  margin-left: auto;
+  text-align: start;
+  justify-content: flex-start;
+}
+
+.bot {
+  background-color: #f7f7f7;
+  color: black;
+  align-self: flex-start;
+  width: 80%;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.bot:hover {
+  background-color: #d7d7d7;
+}
+
 
 .editButton {
   margin-left: 10px;
@@ -50,21 +75,6 @@
   background-color: #0074f9;
 }
 
-.user {
-  background-color: #1787fe;
-  color: white;
-  align-self: flex-end;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.bot {
-  background-color: #e5e5e5;
-  color: black;
-  align-self: flex-start;
-  transition: background-color 0.1s ease-in-out;
-}
-
 .editButton::before {
   content: "";
   position: absolute;
@@ -74,8 +84,4 @@
   bottom: -20px;
   background: transparent;
   pointer-events: all;
-}
-
-.bot:hover {
-  background-color: #d7d7d7;
 }

@@ -1,8 +1,9 @@
 import { Ref, RefObject, use, useEffect, useRef, useState } from "react";
 import { Message } from "../../context/ChatContext";
-import styles from "./ChatWindowItem.module.css";
+import styles from "./MessageItem.module.css";
+import { addNoteToMessage } from "../../services/firebase";
 
-const ChatWindowItem: React.FC<Message> = ({ id, sender, text, note }) => {
+const MessageItem: React.FC<Message> = ({ id, sender, text, note }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [noteValue, setNoteValue] = useState(note);
   const [isEditEnabled, setIsEditEnabled] = useState(false);
@@ -21,6 +22,17 @@ const ChatWindowItem: React.FC<Message> = ({ id, sender, text, note }) => {
 
   const handleOnMouseLeave = () => {
     setIsHovered(false);
+  };
+
+  const handleOnSaveNote = async () => {
+    if (!noteValue) {
+      return;
+    }
+    await addNoteToMessage(id, noteValue);
+    // setIsEditEnabled(false);
+    if (textareaRef.current) {
+      textareaRef.current.disabled = true;
+    }
   };
 
   const handleOnEdit = () => {
@@ -78,7 +90,7 @@ const ChatWindowItem: React.FC<Message> = ({ id, sender, text, note }) => {
               }}
             ></textarea>
             <div
-              onClick={handleOnEdit}
+              onClick={handleOnSaveNote}
               onMouseEnter={handleOnMouseEnter}
               onMouseLeave={handleOnMouseLeave}
               className={styles.saveNotButton}
@@ -91,4 +103,4 @@ const ChatWindowItem: React.FC<Message> = ({ id, sender, text, note }) => {
     </div>
   );
 };
-export default ChatWindowItem;
+export default MessageItem;
