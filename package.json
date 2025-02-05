@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:test": "ts-node src/app.ts",
+    "start": "cd server && npm start",
+    "start:dev": "concurrently \"cd client && npm start\" \"cd server && npm run dev\"",
+    "build": "cd client && npm run build && cd ../server && npm run build"
   },
   "keywords": [],
   "author": "",
