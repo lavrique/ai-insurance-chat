@@ -12,9 +12,9 @@ app.use(cors());
 app.use(express.json());
 
 // Serve React build in production
-if (config.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../../client/build")));
-}
+// if (config.NODE_ENV === "production") {
+app.use(express.static(path.join(__dirname, "../../client/build")));
+// }
 
 // API route example
 app.post("/api/openai", async (req, res) => {
@@ -31,11 +31,11 @@ app.get("/api", (req, res) => {
 });
 
 // Handle React routing in production
-if (config.NODE_ENV === "production") {
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../client/build/index.html"));
-  });
-}
+// if (config.NODE_ENV === "production") {
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../../client/build/index.html"));
+});
+// }
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);

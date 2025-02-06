@@ -9,6 +9,7 @@ import UserMessage from "./UserMessage";
 import BotMessage from "./BotMessage";
 
 const MessageList: React.FC = () => {
+  console.log('test env variable value:', process.env.REACT_APP_TEST);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const { showLoading, hideLoading } = useLoadingContext();
   const chatContext = useChatContext();
