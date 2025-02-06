@@ -1,0 +1,75 @@
+/* The dark overlay that covers the screen */
+.modalOverlay {
+  position: fixed;             /* Stay fixed on screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* dark translucent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;               /* ensure on top */
+}
+
+/* The main box with white background and content */
+.modalContent {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Slightly bigger heading, no top margin */
+.modalContent h3 {
+  margin-top: 0;
+}
+
+/* Input styling */
+.modalContent input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Container for the action buttons */
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+/* 'Create' button styling, matching the theme of your newChatButton */
+.createButton {
+  background-color: #007bff;   /* matches your +New Chat button */
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.createButton:hover {
+  background-color: #0056b3;   /* darker on hover */
+}
+
+/* 'Cancel' button styling (neutral) */
+.cancelButton {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancelButton:hover {
+  background-color: #f4f4f4;
+}

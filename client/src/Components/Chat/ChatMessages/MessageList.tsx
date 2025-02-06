@@ -15,7 +15,7 @@ const MessageList: React.FC = () => {
 
   // Function to scroll to bottom
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    messagesEndRef.current?.scrollIntoView();
   };
 
   const { chats, activeChatId, addMessageToChat } = chatContext;
@@ -23,7 +23,6 @@ const MessageList: React.FC = () => {
 
   useEffect(() => {
     if ((activeChat?.messages?.length ?? 0) > 0) {
-      setTimeout(scrollToBottom, 100); // Delay to allow rendering
       scrollToBottom();
     }
   }, [activeChat?.messages]);

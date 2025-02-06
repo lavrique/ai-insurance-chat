@@ -29,7 +29,7 @@ interface ChatContextType {
   chats: Chat[];
   setChats: React.Dispatch<React.SetStateAction<Chat[]>>;
   activeChatId: EmbeddingVersion;
-  addNewChat: () => void;
+  addNewChat: (name: string) => void;
   setActiveChat: (id: string) => void;
   addMessageToChat: (
     id: string,
@@ -83,10 +83,10 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
     getAllMessagesCallback();
   }, []);
 
-  const addNewChat = () => {
+  const addNewChat = (name: string) => {
     const newChat: Chat = {
       id: (chats.length + 1).toString(),
-      name: `Chat ${chats.length + 1}`,
+      name,
       messages: [],
     };
     setChats([...chats, newChat]);

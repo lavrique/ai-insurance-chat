@@ -1,13 +1,34 @@
-import React, { useContext } from "react";
-import { ChatContext, useChatContext } from "../../context/ChatContext";
+import React, { useState } from "react";
+import { useChatContext } from "../../context/ChatContext";
 import ChatItem from "./ChatItem";
+import NewChatModal from "./NewChatModal";
 import styles from "./ChatList.module.css";
 
 const ChatList: React.FC = () => {
   const chatContext = useChatContext();
+  const { chats, activeChatId, setActiveChat, addNewChat } = chatContext;
 
-  const { chats, activeChatId, setChats, addNewChat, setActiveChat } =
-    chatContext;
+  // Local state to track whether to show/hide the modal
+  const [showModal, setShowModal] = useState(false);
+
+  // Handle the + New Chat button
+  const openNewChatModal = () => {
+    setShowModal(true);
+  };
+
+  // Called when user clicks "Create New Chat" in modal
+  const handleCreateChat = (name: string) => {
+    // This calls your existing chat-creation logic:
+    addNewChat(name);
+
+    // Then close the modal:
+    setShowModal(false);
+  };
+
+  // If user cancels in the modal
+  const handleCancel = () => {
+    setShowModal(false);
+  };
 
   const handleRenameChat = (id: string, newName: string) => {
     // setChats((prevChats) =>
@@ -20,9 +41,20 @@ const ChatList: React.FC = () => {
   return (
     <div className={styles.sidebar}>
       <h2 className={styles.title}>Chats</h2>
-      <button className={styles.newChatButton} onClick={addNewChat}>
+
+      {/* Button that opens the modal */}
+      <button className={styles.newChatButton} onClick={openNewChatModal}>
         + New Chat
       </button>
+
+      {/* Show the modal conditionally */}
+      {showModal && (
+        <NewChatModal
+          onCreate={handleCreateChat}
+          onCancel={handleCancel}
+        />
+      )}
+
       <ul className={styles.list}>
         {chats.map((chat) => (
           <ChatItem
