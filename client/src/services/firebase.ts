@@ -10,7 +10,11 @@ import {
   doc,
   updateDoc,
 } from "firebase/firestore";
-import { EmbeddingVersion, Message } from "../context/ChatContext";
+import {
+  EmbeddingVersion,
+  Message,
+  DatabaseMessage,
+} from "../context/ChatContext";
 
 const firebaseConfig: FirebaseOptions = {
   apiKey: process.env.REACT_APP_CLIENT_APY_KEY,
@@ -26,7 +30,7 @@ const db = getFirestore(app);
 
 export type FirebaseChat = Message & EmbeddingVersion;
 
-export const getAllMessages = async (): Promise<Message[]> => {
+export const getAllMessages = async (): Promise<DatabaseMessage[]> => {
   try {
     const messagesRef = collection(db, "messages");
     const q = query(messagesRef, orderBy("createdAt", "asc")); // Order by createdAt in ascending order
@@ -41,7 +45,7 @@ export const getAllMessages = async (): Promise<Message[]> => {
     const messages = querySnapshot.docs.map((doc) => ({
       ...doc.data(),
       id: doc.id,
-    })) as unknown as Message[];
+    })) as unknown as DatabaseMessage[];
 
     return messages;
   } catch (error) {
@@ -50,7 +54,7 @@ export const getAllMessages = async (): Promise<Message[]> => {
   }
 };
 
-export const insertMessage = async (message: Message): Promise<string> => {
+export const insertMessage = async (message: DatabaseMessage): Promise<string> => {
   try {
     console.log("serverTimestamp", JSON.stringify(serverTimestamp()));
     const messagesRef = collection(db, "messages");

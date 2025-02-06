@@ -21,7 +21,8 @@ app.post("/api/openai", async (req, res) => {
   res.setHeader("Content-Type", "application/json");
   const { query } = req.body;
   console.log("query", query);
-  const answer = await getAnswer(query);
+  // const answer = await getAnswer(query);
+  const answer = "This is a random test answer";
   res.send({ answer });
 });
 

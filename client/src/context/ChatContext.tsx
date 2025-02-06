@@ -19,6 +19,11 @@ export interface Message {
   note?: string;
 }
 
+export interface DatabaseMessage extends Message {
+  chatId: string;
+  chatName: string;
+}
+
 interface Chat {
   id: string;
   name: string;
@@ -56,27 +61,28 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
 
   useEffect(() => {
     const getAllMessagesCallback = async () => {
-      const messages = await getAllMessages();
-      console.log("debug --- messages response", messages);
-      const grouped = messages.reduce<{
-        [key: EmbeddingVersion]: Message[];
+      const retrievedMessages: DatabaseMessage[] = await getAllMessages();
+      console.log("debug --- messages response", retrievedMessages);
+      const grouped = retrievedMessages.reduce<{
+        [key: EmbeddingVersion]: DatabaseMessage[];
       }>((acc, item) => {
-        if (!acc[item.version]) {
-          acc[item.version] = []; // Initialize array if it doesn't exist
+        if (!acc[item.chatName || "test-chat-message-name"]) {
+          acc[item.chatName || "test-chat-message-name"] = []; // Initialize array if it doesn't exist
         }
-        acc[item.version].push(item);
+        acc[item.chatName || "test-chat-message-name"].push(item);
         return acc;
       }, {});
 
       // Convert the grouped object into the desired array structure
       const containerItems = Object.entries(grouped).map(
-        ([version, messages]) => ({
-          id: version,
-          name: version,
+        ([chatName, messages]) => ({
+          id: messages[0]?.chatId ||  v7(),
+          name: chatName,
           messages,
         }),
       );
 
+      // setChats(containerItems.reverse());
       setChats(containerItems);
       setActiveChat(containerItems[0].id);
     };

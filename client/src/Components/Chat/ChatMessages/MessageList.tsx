@@ -37,6 +37,8 @@ const MessageList: React.FC = () => {
     const idQuestion = await insertMessage({
       id: v7(),
       text,
+      chatId: v7(),
+      chatName: activeChat.name,
       sender: "user",
       version: activeChatId,
     });
@@ -63,6 +65,8 @@ const MessageList: React.FC = () => {
       id: v7(),
       text: answer,
       sender: "bot",
+      chatId: v7(),
+      chatName: activeChat.name,
       version: activeChatId,
     });
     addMessageToChat(idAnser, activeChatId, answer, "bot");
