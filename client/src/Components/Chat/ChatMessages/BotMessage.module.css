@@ -1,0 +1,25 @@
+.saveNoteButton {
+  margin: 5px;
+  padding: 5px 10px;
+  width: fit-content;
+  background-color: #1582ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveNotButton:hover {
+  background-color: #0074f9;
+}
+
+.saveNoteDisabled {
+  margin: 5px;
+  padding: 5px 10px;
+  width: fit-content;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #b3b3b3;
+  cursor: default;
+}

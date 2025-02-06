@@ -13,12 +13,12 @@ import {
 import { ChatVersion, Message } from "../context/ChatContext";
 
 const firebaseConfig: FirebaseOptions = {
-  apiKey: "AIzaSyDg0t7Fv46QEvOaIWM_HJelk01WrTNNbCo",
-  authDomain: "my-insurance-chat-bot.firebaseapp.com",
-  projectId: "my-insurance-chat-bot",
-  storageBucket: "my-insurance-chat-bot.firebasestorage.app",
-  messagingSenderId: "848439758298",
-  appId: "1:848439758298:web:24e6bf3b65b09a77edc4e3",
+  apiKey: process.env.REACT_APP_CLIENT_APY_KEY,
+  authDomain: process.env.REACT_APP_CLIENT_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_CLIENT_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_CLIENT_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_CLIENT_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_CLIENT_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);

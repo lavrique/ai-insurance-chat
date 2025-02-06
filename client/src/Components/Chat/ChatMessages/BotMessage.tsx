@@ -1,9 +1,20 @@
-import { Ref, RefObject, use, useEffect, useRef, useState } from "react";
-import { Message } from "../../context/ChatContext";
-import styles from "./MessageItem.module.css";
-import { addNoteToMessage } from "../../services/firebase";
+import { useEffect, useRef, useState } from "react";
+import messageItemStyles from "./MessageItem.module.css";
+import styles from "./BotMessage.module.css";
+import { Message } from "../../../context/ChatContext";
+import { addNoteToMessage } from "../../../services/firebase";
 
-const MessageItem: React.FC<Message> = ({ id, sender, text, note }) => {
+type UserMessageProps = {
+  text: string;
+};
+
+const BotMessage: React.FC<Message> = ({
+  id,
+  sender,
+  text,
+  version,
+  note,
+}) => {
   const [isHovered, setIsHovered] = useState(false);
   const [noteValue, setNoteValue] = useState(note);
   const [isEditEnabled, setIsEditEnabled] = useState(false);
@@ -57,24 +68,24 @@ const MessageItem: React.FC<Message> = ({ id, sender, text, note }) => {
   };
 
   return (
-    <div className={styles.container}>
-      {(isHovered && !note && sender === "bot") || isEditEnabled ? (
+    <div className={messageItemStyles.messageContainer}>
+      {(isHovered && !note) || isEditEnabled ? (
         <div
           onClick={handleOnEdit}
           onMouseEnter={handleOnMouseEnter}
           onMouseLeave={handleOnMouseLeave}
-          className={styles.editButton}
+          className={messageItemStyles.editButton}
         >
           Edit
         </div>
       ) : null}
       <div
-        className={`${styles.message} ${sender === "user" ? styles.user : styles.bot}`}
+        className={`${messageItemStyles.message} ${messageItemStyles.bot}`}
         onMouseEnter={handleOnMouseEnter}
         onMouseLeave={handleOnMouseLeave}
       >
         {text}
-        {(sender === "bot" && isEditEnabled) || note ? (
+        {isEditEnabled || note ? (
           <>
             <textarea
               value={noteValue}
@@ -93,7 +104,11 @@ const MessageItem: React.FC<Message> = ({ id, sender, text, note }) => {
               onClick={handleOnSaveNote}
               onMouseEnter={handleOnMouseEnter}
               onMouseLeave={handleOnMouseLeave}
-              className={styles.saveNotButton}
+              className={
+                note
+                  ? styles.saveNoteDisabled
+                  : styles.saveNoteButton
+              }
             >
               Save Note
             </div>
@@ -103,4 +118,4 @@ const MessageItem: React.FC<Message> = ({ id, sender, text, note }) => {
     </div>
   );
 };
-export default MessageItem;
+export default BotMessage;

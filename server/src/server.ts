@@ -2,16 +2,17 @@ import express from "express";
 import cors from "cors";
 import path from "path";
 import { getAnswer } from "./openai";
+import config from "./config";
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = config.PORT;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
 // Serve React build in production
-if (process.env.NODE_ENV === "production") {
+if (config.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../../client/build")));
 }
 
@@ -21,7 +22,6 @@ app.post("/api/openai", async (req, res) => {
   const { query } = req.body;
   console.log("query", query);
   const answer = await getAnswer(query);
-  // console.log("answer", answer);
   res.send({ answer });
 });
 
@@ -31,7 +31,7 @@ app.get("/api", (req, res) => {
 });
 
 // Handle React routing in production
-if (process.env.NODE_ENV === "production") {
+if (config.NODE_ENV === "production") {
   app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "../../client/build/index.html"));
   });

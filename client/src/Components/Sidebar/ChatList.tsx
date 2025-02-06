@@ -9,8 +9,7 @@ const ChatList: React.FC = () => {
   if (!chatContext) return null;
 
   // const { chats, activeChatId, setChats, addNewChat, setActiveChat } =
-  const { chats, activeChatId, setChats, setActiveChat } =
-    chatContext;
+  const { chats, activeChatId, setChats, setActiveChat } = chatContext;
 
   const handleRenameChat = (id: string, newName: string) => {
     // setChats((prevChats) =>

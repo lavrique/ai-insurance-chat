@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./chat.module.css";
 import ChatList from "../Components/Sidebar/ChatList";
-import MessageList from "../Components/Chat/MessageList";
+import MessageList from "../Components/Chat/ChatMessages/MessageList";
 import { getAllMessages } from "../services/firebase";
 
 const ChatPage: React.FC = () => {

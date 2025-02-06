@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useRef } from "react";
-import ChatInput from "./ChatInput";
-import { ChatContext, useChatContext } from "../../context/ChatContext";
+import ChatInput from "../ChatInput/ChatInput";
+import { ChatContext, useChatContext } from "../../../context/ChatContext";
 import styles from "./MessageList.module.css";
-import MessageItem from "./MessageItem";
-import { insertMessage } from "../../services/firebase";
+import { insertMessage } from "../../../services/firebase";
 import { v7 } from "uuid";
-import { useLoadingContext } from "../../context/LoadingContext";
+import { useLoadingContext } from "../../../context/LoadingContext";
+import UserMessage from "./UserMessage";
+import BotMessage from "./BotMessage";
 
 const MessageList: React.FC = () => {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
@@ -67,16 +68,20 @@ const MessageList: React.FC = () => {
   return (
     <div className={styles.chatWindow}>
       <div className={styles.messages}>
-        {activeChat.messages.map((msg) => (
-          <MessageItem
-            key={msg.id}
-            id={msg.id}
-            sender={msg.sender}
-            text={msg.text}
-            note={msg.note}
-            version={msg.version}
-          />
-        ))}
+        {activeChat.messages.map((msg) =>
+          msg.sender === "user" ? (
+            <UserMessage key={msg.id} text={msg.text} />
+          ) : (
+            <BotMessage
+              key={msg.id}
+              id={msg.id}
+              sender={msg.sender}
+              text={msg.text}
+              note={msg.note}
+              version={msg.version}
+            />
+          ),
+        )}
         <div ref={messagesEndRef} />
       </div>
       <ChatInput onSendMessage={handleOnSendMessage} />

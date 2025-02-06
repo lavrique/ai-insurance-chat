@@ -1,6 +1,6 @@
 import { OpenAI } from "openai";
 import fs from "fs";
-import path from "path";
+import config from "./config";
 
 type StoredEmbedding = {
   text: string;
@@ -10,8 +10,7 @@ type StoredEmbedding = {
 };
 type StoredChunk = StoredEmbedding & { score: any };
 
-const apiKey =
-  "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";
+const apiKey = config.OPENAI_API_KEY;
 
 const openai = new OpenAI({ apiKey });
 

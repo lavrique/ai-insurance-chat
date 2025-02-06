@@ -1,18 +1,18 @@
-.container {
+.messageContainer {
   position: relative;
 }
 
 .message {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-bottom: 10px;
   max-width: 100%;
   word-wrap: break-word;
 }
 
 .user {
+  padding: 10px;
   background-color: #1787fe;
   color: white;
   max-width: 80%;
@@ -24,6 +24,7 @@
 }
 
 .bot {
+  padding: 20px;
   background-color: #f7f7f7;
   color: black;
   align-self: flex-start;
@@ -36,7 +37,6 @@
   background-color: #d7d7d7;
 }
 
-
 .editButton {
   margin-left: 10px;
   padding: 2px 8px;
@@ -47,30 +47,12 @@
   border-radius: 5px;
   cursor: pointer;
   position: absolute;
-  left: -20px;
-  bottom: -5px;
+  left: -15px;
+  bottom: 70px;
 }
 
 .editButton:hover {
   background-color: #5d9bff;
-}
-
-.saveNotButton {
-  margin: 5px;
-  padding: 5px 10px;
-  width: fit-content;
-  background-color: #1582ff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  /* position: absolute;
-  left: -20px;
-  bottom: -5px; */
-}
-
-.saveNotButton:hover {
-  background-color: #0074f9;
 }
 
 .editButton::before {
