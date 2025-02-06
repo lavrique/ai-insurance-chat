@@ -6,7 +6,7 @@ import React, {
   useEffect,
   useContext,
 } from "react";
-import { getAllMessages } from "../services/firebase";
+import { getAllMessages, getAllVersions } from "../services/firebase";
 import { v7 } from "uuid";
 
 export type EmbeddingVersion = "Embeddings-v0.0.1" | string;
@@ -22,6 +22,11 @@ export interface Message {
 export interface DatabaseMessage extends Message {
   chatId: string;
   chatName: string;
+}
+
+export interface DatabaseVersion {
+  id: string;
+  name: string;
 }
 
 interface Chat {
@@ -61,6 +66,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
 
   useEffect(() => {
     const getAllMessagesCallback = async () => {
+      const retrievedVersions: DatabaseVersion[] = await getAllVersions();
       const retrievedMessages: DatabaseMessage[] = await getAllMessages();
       console.log("debug --- messages response", retrievedMessages);
       const grouped = retrievedMessages.reduce<{
@@ -76,7 +82,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
       // Convert the grouped object into the desired array structure
       const containerItems = Object.entries(grouped).map(
         ([chatName, messages]) => ({
-          id: messages[0]?.chatId ||  v7(),
+          id: messages[0]?.chatId || v7(),
           name: chatName,
           messages,
         }),

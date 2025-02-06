@@ -14,6 +14,7 @@ import {
   EmbeddingVersion,
   Message,
   DatabaseMessage,
+  DatabaseVersion,
 } from "../context/ChatContext";
 
 const firebaseConfig: FirebaseOptions = {
@@ -29,6 +30,30 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 export type FirebaseChat = Message & EmbeddingVersion;
+
+export const getAllVersions = async (): Promise<DatabaseVersion[]> => {
+  try {
+    const messagesRef = collection(db, "versions");
+    const q = query(messagesRef, orderBy("createdAt", "asc"));
+
+    const querySnapshot = await getDocs(q);
+
+    if (querySnapshot.empty) {
+      console.log("No versions found!");
+      return [];
+    }
+
+    const versions = querySnapshot.docs.map((doc) => ({
+      ...doc.data(),
+      id: doc.id,
+    })) as unknown as DatabaseVersion[];
+    console.log("debug --- fetched versions", versions);
+    return versions;
+  } catch (error) {
+    console.error("Error fetching Firestore data:", error);
+    return [];
+  }
+};
 
 export const getAllMessages = async (): Promise<DatabaseMessage[]> => {
   try {
@@ -54,7 +79,9 @@ export const getAllMessages = async (): Promise<DatabaseMessage[]> => {
   }
 };
 
-export const insertMessage = async (message: DatabaseMessage): Promise<string> => {
+export const insertMessage = async (
+  message: DatabaseMessage,
+): Promise<string> => {
   try {
     console.log("serverTimestamp", JSON.stringify(serverTimestamp()));
     const messagesRef = collection(db, "messages");
