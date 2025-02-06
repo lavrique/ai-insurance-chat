@@ -10,7 +10,7 @@ import {
   doc,
   updateDoc,
 } from "firebase/firestore";
-import { ChatVersion, Message } from "../context/ChatContext";
+import { EmbeddingVersion, Message } from "../context/ChatContext";
 
 const firebaseConfig: FirebaseOptions = {
   apiKey: process.env.REACT_APP_CLIENT_APY_KEY,
@@ -24,7 +24,7 @@ const firebaseConfig: FirebaseOptions = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-export type FirebaseChat = Message & ChatVersion;
+export type FirebaseChat = Message & EmbeddingVersion;
 
 export const getAllMessages = async (): Promise<Message[]> => {
   try {

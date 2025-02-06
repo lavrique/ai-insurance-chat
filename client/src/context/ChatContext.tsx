@@ -9,18 +9,18 @@ import React, {
 import { getAllMessages } from "../services/firebase";
 import { v7 } from "uuid";
 
-export type ChatVersion = "Embeddings-v0.0.1" | string;
+export type EmbeddingVersion = "Embeddings-v0.0.1" | string;
 
 export interface Message {
   id: string;
   text: string;
   sender: "user" | "bot";
-  version: string;
+  version: EmbeddingVersion;
   note?: string;
 }
 
 interface Chat {
-  id: ChatVersion;
+  id: string;
   name: string;
   messages: Message[];
 }
@@ -28,8 +28,8 @@ interface Chat {
 interface ChatContextType {
   chats: Chat[];
   setChats: React.Dispatch<React.SetStateAction<Chat[]>>;
-  activeChatId: ChatVersion;
-  // addNewChat: () => void;
+  activeChatId: EmbeddingVersion;
+  addNewChat: () => void;
   setActiveChat: (id: string) => void;
   addMessageToChat: (
     id: string,
@@ -49,23 +49,24 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [chats, setChats] = useState<Chat[]>([]);
-  const [activeChatId, setActiveChatId] = useState<ChatVersion>("");
+  const [activeEmbeddingVersion, setActiveEmbeddingVersion] =
+    useState<EmbeddingVersion>("");
+  const [activeChatId, setActiveChatId] = useState<string>("");
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
     const getAllMessagesCallback = async () => {
       const messages = await getAllMessages();
       console.log("debug --- messages response", messages);
-      const grouped = messages.reduce<{ [key: ChatVersion]: Message[] }>(
-        (acc, item) => {
-          if (!acc[item.version]) {
-            acc[item.version] = []; // Initialize array if it doesn't exist
-          }
-          acc[item.version].push(item);
-          return acc;
-        },
-        {},
-      );
+      const grouped = messages.reduce<{
+        [key: EmbeddingVersion]: Message[];
+      }>((acc, item) => {
+        if (!acc[item.version]) {
+          acc[item.version] = []; // Initialize array if it doesn't exist
+        }
+        acc[item.version].push(item);
+        return acc;
+      }, {});
 
       // Convert the grouped object into the desired array structure
       const containerItems = Object.entries(grouped).map(
@@ -82,23 +83,23 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
     getAllMessagesCallback();
   }, []);
 
-  // const addNewChat = () => {
-  //   const newChat: Chat = {
-  //     id: (chats.length + 1).toString(),
-  //     name: `Chat ${chats.length + 1}`,
-  //     messages: [],
-  //   };
-  //   setChats([...chats, newChat]);
-  //   setActiveChatId(newChat.id);
-  // };
+  const addNewChat = () => {
+    const newChat: Chat = {
+      id: (chats.length + 1).toString(),
+      name: `Chat ${chats.length + 1}`,
+      messages: [],
+    };
+    setChats([...chats, newChat]);
+    setActiveChatId(newChat.id);
+  };
 
-  const setActiveChat = (id: ChatVersion) => {
+  const setActiveChat = (id: EmbeddingVersion) => {
     setActiveChatId(id);
   };
 
   const addMessageToChat = (
     id: string,
-    chatId: ChatVersion,
+    chatId: EmbeddingVersion,
     text: string,
     sender: "user" | "bot",
   ) => {
@@ -123,7 +124,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
         chats,
         setChats,
         activeChatId,
-        // addNewChat,
+        addNewChat,
         setActiveChat,
         addMessageToChat,
         setIsLoading,
@@ -141,4 +142,4 @@ export const useChatContext = () => {
     throw new Error("useChatContext must be used within a ChatProvider");
   }
   return context;
-}
+};

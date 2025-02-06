@@ -1,15 +1,13 @@
 import React, { useContext } from "react";
-import { ChatContext } from "../../context/ChatContext";
+import { ChatContext, useChatContext } from "../../context/ChatContext";
 import ChatItem from "./ChatItem";
 import styles from "./ChatList.module.css";
 
 const ChatList: React.FC = () => {
-  const chatContext = useContext(ChatContext);
+  const chatContext = useChatContext();
 
-  if (!chatContext) return null;
-
-  // const { chats, activeChatId, setChats, addNewChat, setActiveChat } =
-  const { chats, activeChatId, setChats, setActiveChat } = chatContext;
+  const { chats, activeChatId, setChats, addNewChat, setActiveChat } =
+    chatContext;
 
   const handleRenameChat = (id: string, newName: string) => {
     // setChats((prevChats) =>
@@ -22,8 +20,7 @@ const ChatList: React.FC = () => {
   return (
     <div className={styles.sidebar}>
       <h2 className={styles.title}>Chats</h2>
-      {/* <button className={styles.newChatButton} onClick={addNewChat}> */}
-      <button className={styles.newChatButton} onClick={() => {}}>
+      <button className={styles.newChatButton} onClick={addNewChat}>
         + New Chat
       </button>
       <ul className={styles.list}>
