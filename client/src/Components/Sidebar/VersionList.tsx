@@ -1,6 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./VersionList.module.css";
 import { useChatContext, Version } from "../../context/ChatContext";
+import {
+  getLocalStorageSelectedVersion,
+  setLocalStorageSelectedVersion,
+} from "../../localStorage/localStorage";
 
 const VersionList: React.FC = () => {
   // Example list of versions
@@ -8,23 +12,28 @@ const VersionList: React.FC = () => {
 
   const { versions, setActiveVersion, activeVersionId } = chatContext;
 
-  const [selectedVersion, setSelectedVersion] = useState(versions[0]);
+  const [selectedVersion, setSelectedVersion] = useState(
+    getLocalStorageSelectedVersion(),
+  );
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef<HTMLUListElement | null>(null);
 
   useEffect(() => {
     const version = versions.find(
       (version) => version.id === activeVersionId,
-    ) as Version;
-    setSelectedVersion({ ...version });
+    );
+    if (version) {
+      setSelectedVersion({ ...version });
+    }
   }, [activeVersionId]);
 
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
   };
 
-  const handleVersionSelect = (versionId: string) => {
-    setActiveVersion(versionId);
+  const handleVersionSelect = (version: Version) => {
+    setActiveVersion(version.id);
+    setLocalStorageSelectedVersion(version);
     setShowDropdown(false);
   };
 
@@ -71,7 +80,7 @@ const VersionList: React.FC = () => {
             <li
               key={version.id}
               className={styles.dropdownItem}
-              onClick={() => handleVersionSelect(version.id)}
+              onClick={() => handleVersionSelect(version)}
             >
               {version.name}
             </li>

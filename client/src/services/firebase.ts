@@ -34,7 +34,7 @@ export type FirebaseChat = Message & EmbeddingVersion;
 export const getAllVersions = async (): Promise<DatabaseVersion[]> => {
   try {
     const messagesRef = collection(db, "versions");
-    const q = query(messagesRef, orderBy("createdAt", "asc"));
+    const q = query(messagesRef, orderBy("createdAt", "desc"));
 
     const querySnapshot = await getDocs(q);
 
