@@ -24,10 +24,12 @@ export interface DatabaseMessage extends Message {
   chatName: string;
 }
 
-export interface DatabaseVersion {
+export interface Version {
   id: string;
   name: string;
 }
+
+export interface DatabaseVersion extends Version {}
 
 interface Chat {
   id: string;
@@ -36,6 +38,9 @@ interface Chat {
 }
 
 interface ChatContextType {
+  versions: Version[];
+  setActiveVersion: (id: string) => void;
+  activeVersionId: string;
   chats: Chat[];
   setChats: React.Dispatch<React.SetStateAction<Chat[]>>;
   activeChatId: EmbeddingVersion;
@@ -59,14 +64,17 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [chats, setChats] = useState<Chat[]>([]);
-  const [activeEmbeddingVersion, setActiveEmbeddingVersion] =
-    useState<EmbeddingVersion>("");
+  const [versions, setVersions] = useState<Version[]>([]);
+  const [activeVersionId, setActiveVersionId] = useState<string>("");
   const [activeChatId, setActiveChatId] = useState<string>("");
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
     const getAllMessagesCallback = async () => {
       const retrievedVersions: DatabaseVersion[] = await getAllVersions();
+      setVersions(retrievedVersions);
+      setActiveVersionId(retrievedVersions[0].id);
+
       const retrievedMessages: DatabaseMessage[] = await getAllMessages();
       console.log("debug --- messages response", retrievedMessages);
       const grouped = retrievedMessages.reduce<{
@@ -88,7 +96,6 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
         }),
       );
 
-      // setChats(containerItems.reverse());
       setChats(containerItems);
       setActiveChat(containerItems[0].id);
     };
@@ -105,8 +112,12 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
     setActiveChatId(newChat.id);
   };
 
-  const setActiveChat = (id: EmbeddingVersion) => {
+  const setActiveChat = (id: string) => {
     setActiveChatId(id);
+  };
+
+  const setActiveVersion = (id: string) => {
+    setActiveVersionId(id);
   };
 
   const addMessageToChat = (
@@ -133,6 +144,9 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
   return (
     <ChatContext.Provider
       value={{
+        versions,
+        setActiveVersion,
+        activeVersionId,
         chats,
         setChats,
         activeChatId,

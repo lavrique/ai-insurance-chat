@@ -9,7 +9,9 @@
   background-color: #f4f4f4;
   padding: 10px;
   border-right: 1px solid #ddd;
-  overflow-y: auto;
+  /* overflow-y: auto; */
+  overflow: visible;
+  position: relative;
 }
 
 .chat-main {

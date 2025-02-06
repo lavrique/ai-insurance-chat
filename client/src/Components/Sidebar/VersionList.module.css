@@ -1,0 +1,51 @@
+.versionListContainer {
+  /* This wrapper just holds the Versions title + selected version. */
+  margin-bottom: 16px;
+  position: relative; /* If you want *this* element to be the dropdown anchor */
+}
+
+.title {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.selectedVersion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdownIcon {
+  margin-left: 8px;
+}
+
+/* The dropdown ul itself */
+.versionsDropdown {
+  position: absolute;
+  top: 42px;           /* Just below .selectedVersion; tweak as needed */
+  left: 100%;          /* Puts it to the immediate *right* of the container */
+  margin-left: 8px;    /* Optional: add some space between the box and the button */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  z-index: 999;        /* Ensure it appears on top */
+  width: 180px;        /* Adjust as needed */
+}
+
+.dropdownItem {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: #eaeaea;
+}

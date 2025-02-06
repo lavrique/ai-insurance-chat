@@ -3,6 +3,7 @@ import { useChatContext } from "../../context/ChatContext";
 import ChatItem from "./ChatItem";
 import NewChatModal from "./NewChatModal";
 import styles from "./ChatList.module.css";
+import VersionList from "./VersionList";
 
 const ChatList: React.FC = () => {
   const chatContext = useChatContext();
@@ -40,6 +41,7 @@ const ChatList: React.FC = () => {
 
   return (
     <div className={styles.sidebar}>
+      <VersionList />
       <h2 className={styles.title}>Chats</h2>
 
       {/* Button that opens the modal */}
