@@ -76,9 +76,12 @@ function buildPrompt(query: string, topChunks: StoredChunk[]) {
 }
 
 export const getAnswer = async (query: string): Promise<string> => {
+  console.log("start getting chunks from query");
   const topChunks: StoredChunk[] = await retrieveTopChunks(query, 4);
+  console.log("finish getting chunks from query");
   const prompt = buildPrompt(query, topChunks);
 
+  console.log("start request to openapi");
   const chatResponse = await openai.chat.completions.create({
     model: "gpt-4o",
     messages: [
@@ -92,6 +95,7 @@ export const getAnswer = async (query: string): Promise<string> => {
     ],
     temperature: 0.2, // Lower temperature for factual responses
   });
+  console.log("finish request to openapi");
 
   if (!chatResponse.choices[0].message.content) {
     console.log("No response from GPT-4o");

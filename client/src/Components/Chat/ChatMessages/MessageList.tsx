@@ -9,7 +9,6 @@ import UserMessage from "./UserMessage";
 import BotMessage from "./BotMessage";
 
 const MessageList: React.FC = () => {
-  console.log('test env variable value:', process.env.REACT_APP_TEST);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const { showLoading, hideLoading } = useLoadingContext();
   const chatContext = useChatContext();
@@ -44,13 +43,17 @@ const MessageList: React.FC = () => {
     });
     addMessageToChat(idQuestion, activeChatId, text, "user");
     console.log("request Made to server");
-    const response = await fetch("http://localhost:8080/api/openai", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+    // TODO move this to a service
+    const response = await fetch(
+      `${process.env.REACT_APP_SERVER_URL}/api/openai`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ query: text }),
       },
-      body: JSON.stringify({ query: text }),
-    });
+    );
     console.log("request arrived from server");
     const { answer } = await response?.json();
 
