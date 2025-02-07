@@ -78,6 +78,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
 
   useEffect(() => {
     const getAllMessagesCallback = async () => {
+      showLoading(true);
       const retrievedVersions: DatabaseVersion[] = await getAllVersions();
       setVersions(retrievedVersions);
       setActiveVersionId(retrievedVersions[0].id);
@@ -91,6 +92,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
 
       setChats(buildedChats);
       setActiveChat(buildedChats?.[0]?.id);
+      hideLoading();
     };
     getAllMessagesCallback();
   }, []);
@@ -116,7 +118,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
     const isVersionAlreadyRetrieved = versions.some(
       (version) => version.id === id,
     );
-    showLoading();
+    showLoading(true);
     const retrievedMessages: DatabaseMessage[] = await getAllMessages(id);
     hideLoading();
 

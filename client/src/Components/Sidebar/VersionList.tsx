@@ -4,7 +4,7 @@ import { useChatContext, Version } from "../../context/ChatContext";
 import {
   getLocalStorageSelectedVersion,
   setLocalStorageSelectedVersion,
-} from "../../localStorage/localStorage";
+} from "../../utils/localStorage";
 
 const VersionList: React.FC = () => {
   // Example list of versions

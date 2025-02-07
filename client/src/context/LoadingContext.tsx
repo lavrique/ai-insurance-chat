@@ -7,7 +7,7 @@ import React, {
 
 interface LoadingContextType {
   isLoading: boolean;
-  showLoading: () => void;
+  showLoading: (withSpinner: boolean) => void;
   hideLoading: () => void;
 }
 
@@ -19,16 +19,23 @@ export const LoadingProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [isLoading, setIsLoading] = useState(false);
+  const [showSpinner, setShowSpinner] = useState(true);
 
-  const showLoading = () => setIsLoading(true);
-  const hideLoading = () => setIsLoading(false);
+  const showLoading = (withSpinner: boolean) => {
+    setShowSpinner(withSpinner);
+    setIsLoading(true);
+  };
+  const hideLoading = () => {
+    setShowSpinner(true);
+    setIsLoading(false);
+  };
 
   return (
     <LoadingContext.Provider
       value={{ isLoading, showLoading, hideLoading }}
     >
       {children}
-      {isLoading && <LoadingOverlay />}
+      {isLoading && showSpinner && <LoadingOverlay />}
     </LoadingContext.Provider>
   );
 };
@@ -41,9 +48,7 @@ export const useLoadingContext = () => {
   return context;
 };
 
-// The actual loading UI
 const LoadingOverlay = () => {
-  console.log("Loading overlay rendered"); // Debugging output
   return (
     <div
       style={{

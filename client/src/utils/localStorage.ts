@@ -17,3 +17,17 @@ export const getLocalStorageSelectedVersion = (): Partial<Version> => {
     name: "Embeddings",
   };
 };
+
+export const setLocalStorageSideBarWidth = (width: number) => {
+  localStorage.setItem("sidebarWidth", `${width}`);
+};
+
+//TODO see why it does not work properly. When I refresh it flickers
+export const gerLocalStorageSideBarWidth = (
+  defaultWidth: number,
+): number => {
+  const width = localStorage.getItem("sidebarWidth");
+  if (!width) {
+    return defaultWidth;
+  } else return Number(width);
+};

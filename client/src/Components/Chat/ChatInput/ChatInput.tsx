@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styles from "./ChatInput.module.css";
+import ThinkingIndicator from "./ThinkingIndicator";
+import { useLoadingContext } from "../../../context/LoadingContext";
 
 interface ChatInputProps {
   onSendMessage: (text: string) => void;
@@ -7,6 +9,7 @@ interface ChatInputProps {
 
 const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
   const [text, setText] = useState("");
+  const { isLoading } = useLoadingContext();
 
   const handleSend = () => {
     if (text.trim() !== "") {
@@ -24,19 +27,22 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
   };
 
   return (
-    <div className={styles.chatInput}>
-      <input
-        type="text"
-        className={styles.input}
-        placeholder="Type a message..."
-        value={text}
-        onChange={(e) => setText(e.target.value)}
-        onKeyPress={handleKeyPress}
-      />
-      <button className={styles.sendButton} onClick={handleSend}>
-        Send
-      </button>
-    </div>
+    <>
+      {isLoading && <ThinkingIndicator />}
+      <div className={styles.chatInput}>
+        <input
+          type="text"
+          className={styles.input}
+          placeholder="Type a message..."
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          onKeyPress={handleKeyPress}
+        />
+        <button className={styles.sendButton} onClick={handleSend}>
+          Send
+        </button>
+      </div>
+    </>
   );
 };
 

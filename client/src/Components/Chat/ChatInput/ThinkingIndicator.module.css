@@ -1,0 +1,44 @@
+.thinkingContainer {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #666; /* Adjust text color to your liking */
+  padding: 10px;
+}
+
+/* Animate the word "Thinking" with a gentle fade-pulse */
+.thinkingText {
+  font-style: italic;
+  animation: pulseText 1.2s infinite;
+  margin-right: 4px; /* small spacing before the dots */
+}
+
+@keyframes pulseText {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* The dots that animate in/out in a sequence */
+.dot {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeInOut 1.2s infinite;
+  margin-left: 2px;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

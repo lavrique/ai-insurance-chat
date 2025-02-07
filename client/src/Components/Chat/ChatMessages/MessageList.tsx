@@ -30,11 +30,13 @@ const MessageList: React.FC = () => {
 
   if (!activeChat)
     return (
-      <p className={styles.noChat}>Add a new chat to start asking questions for you needs!</p>
+      <p className={styles.noChat}>
+        Add a new chat to start asking questions for you needs!
+      </p>
     );
 
   const handleOnSendMessage = async (text: string) => {
-    showLoading();
+    showLoading(false);
     const idQuestion = await insertMessage({
       id: v7(),
       text,
@@ -43,6 +45,7 @@ const MessageList: React.FC = () => {
       sender: "user",
       versionName: activeVersionId,
     });
+    // TODO add this before show loading. Just need to update the message with id after that
     addMessageToChat(idQuestion, activeChatId, text, "user");
     console.log("request Made to server");
     // TODO move this to a service
