@@ -8,6 +8,8 @@ import React, {
 } from "react";
 import { getAllMessages, getAllVersions } from "../services/firebase";
 import { v7 } from "uuid";
+import { buildChatsFromDatabaseMessages } from "../utils/buildChatsFromDatabaseMessages";
+import { useLoadingContext } from "./LoadingContext";
 
 export type EmbeddingVersion = "Embeddings-v0.0.1" | string;
 
@@ -15,27 +17,30 @@ export interface Message {
   id: string;
   text: string;
   sender: "user" | "bot";
-  version: EmbeddingVersion;
+  // TODO delete version
+  version?: EmbeddingVersion;
   note?: string;
+}
+
+export interface Chat {
+  id: string;
+  name: string;
+  messages: Message[];
 }
 
 export interface DatabaseMessage extends Message {
   chatId: string;
   chatName: string;
+  versionName: string;
 }
 
 export interface Version {
   id: string;
   name: string;
+  chats: Chat[];
 }
 
 export interface DatabaseVersion extends Version {}
-
-interface Chat {
-  id: string;
-  name: string;
-  messages: Message[];
-}
 
 interface ChatContextType {
   versions: Version[];
@@ -63,11 +68,13 @@ export const ChatContext = createContext<ChatContextType | undefined>(
 export const ChatProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
+  // TODO improve this. chats no longer necessary. access from version.chats
   const [chats, setChats] = useState<Chat[]>([]);
   const [versions, setVersions] = useState<Version[]>([]);
   const [activeVersionId, setActiveVersionId] = useState<string>("");
   const [activeChatId, setActiveChatId] = useState<string>("");
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const { showLoading, hideLoading } = useLoadingContext();
 
   useEffect(() => {
     const getAllMessagesCallback = async () => {
@@ -75,29 +82,15 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
       setVersions(retrievedVersions);
       setActiveVersionId(retrievedVersions[0].id);
 
-      const retrievedMessages: DatabaseMessage[] = await getAllMessages();
-      console.log("debug --- messages response", retrievedMessages);
-      const grouped = retrievedMessages.reduce<{
-        [key: EmbeddingVersion]: DatabaseMessage[];
-      }>((acc, item) => {
-        if (!acc[item.chatName || "test-chat-message-name"]) {
-          acc[item.chatName || "test-chat-message-name"] = []; // Initialize array if it doesn't exist
-        }
-        acc[item.chatName || "test-chat-message-name"].push(item);
-        return acc;
-      }, {});
-
-      // Convert the grouped object into the desired array structure
-      const containerItems = Object.entries(grouped).map(
-        ([chatName, messages]) => ({
-          id: messages[0]?.chatId || v7(),
-          name: chatName,
-          messages,
-        }),
+      const retrievedMessages: DatabaseMessage[] = await getAllMessages(
+        retrievedVersions[0].id,
       );
+      console.log("debug --- messages response", retrievedMessages);
+      const buildedChats =
+        buildChatsFromDatabaseMessages(retrievedMessages);
 
-      setChats(containerItems);
-      setActiveChat(containerItems[0].id);
+      setChats(buildedChats);
+      setActiveChat(buildedChats[0].id);
     };
     getAllMessagesCallback();
   }, []);
@@ -116,8 +109,20 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
     setActiveChatId(id);
   };
 
-  const setActiveVersion = (id: string) => {
+  const setActiveVersion = async (id: string) => {
     setActiveVersionId(id);
+
+    // TODO do not retrieve version if already retrieved
+    const isVersionAlreadyRetrieved = versions.some(
+      (version) => version.id === id,
+    );
+    showLoading();
+    const retrievedMessages: DatabaseMessage[] = await getAllMessages(id);
+    hideLoading();
+
+    const buildedChats = buildChatsFromDatabaseMessages(retrievedMessages);
+    setChats(buildedChats);
+    setActiveChat(buildedChats[0].id);
   };
 
   const addMessageToChat = (

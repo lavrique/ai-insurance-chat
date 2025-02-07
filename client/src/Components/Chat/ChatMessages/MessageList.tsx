@@ -18,7 +18,8 @@ const MessageList: React.FC = () => {
     messagesEndRef.current?.scrollIntoView();
   };
 
-  const { chats, activeChatId, addMessageToChat } = chatContext;
+  const { chats, activeChatId, addMessageToChat, activeVersionId } =
+    chatContext;
   const activeChat = chats.find((chat) => chat.id === activeChatId);
 
   useEffect(() => {
@@ -37,10 +38,10 @@ const MessageList: React.FC = () => {
     const idQuestion = await insertMessage({
       id: v7(),
       text,
-      chatId: v7(),
+      chatId: activeChatId,
       chatName: activeChat.name,
       sender: "user",
-      version: activeChatId,
+      versionName: activeVersionId,
     });
     addMessageToChat(idQuestion, activeChatId, text, "user");
     console.log("request Made to server");
@@ -67,7 +68,7 @@ const MessageList: React.FC = () => {
       sender: "bot",
       chatId: v7(),
       chatName: activeChat.name,
-      version: activeChatId,
+      versionName: activeVersionId,
     });
     addMessageToChat(idAnser, activeChatId, answer, "bot");
   };

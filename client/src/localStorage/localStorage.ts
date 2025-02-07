@@ -5,7 +5,7 @@ export const setLocalStorageSelectedVersion = (version: Version) => {
   localStorage.setItem("selectedVersion", JSON.stringify(version));
 };
 
-export const getLocalStorageSelectedVersion = (): Version => {
+export const getLocalStorageSelectedVersion = (): Partial<Version> => {
   const savedSelectedVersionJSON = localStorage.getItem("selectedVersion");
   let selectedVersion = null;
   if (savedSelectedVersionJSON) {
@@ -14,6 +14,6 @@ export const getLocalStorageSelectedVersion = (): Version => {
   }
   return {
     id: v7(),
-    name: 'Embeddings'
-  }
+    name: "Embeddings",
+  };
 };

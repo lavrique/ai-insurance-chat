@@ -4,11 +4,11 @@ import { LoadingProvider } from "./context/LoadingContext";
 
 function App() {
   return (
-    <ChatProvider>
-      <LoadingProvider>
+    <LoadingProvider>
+      <ChatProvider>
         <ChatPage />
-      </LoadingProvider>
-    </ChatProvider>
+      </ChatProvider>
+    </LoadingProvider>
   );
 }
 

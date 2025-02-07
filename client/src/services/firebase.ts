@@ -9,6 +9,7 @@ import {
   orderBy,
   doc,
   updateDoc,
+  where,
 } from "firebase/firestore";
 import {
   EmbeddingVersion,
@@ -55,22 +56,29 @@ export const getAllVersions = async (): Promise<DatabaseVersion[]> => {
   }
 };
 
-export const getAllMessages = async (): Promise<DatabaseMessage[]> => {
+export const getAllMessages = async (
+  versionId: string,
+): Promise<DatabaseMessage[]> => {
   try {
     const messagesRef = collection(db, "messages");
-    const q = query(messagesRef, orderBy("createdAt", "asc")); // Order by createdAt in ascending order
+    const q = query(
+      messagesRef,
+      where("versionName", "==", doc(db, "versions", versionId)),
+      // where("versionName", "==", `/versions/${versionId}`),
+      orderBy("createdAt", "asc"),
+    );
 
     const querySnapshot = await getDocs(q);
 
     if (querySnapshot.empty) {
-      console.log("No chats found!");
+      console.log("No messages found for version:", versionId);
       return [];
     }
 
     const messages = querySnapshot.docs.map((doc) => ({
       ...doc.data(),
       id: doc.id,
-    })) as unknown as DatabaseMessage[];
+    })) as DatabaseMessage[];
 
     return messages;
   } catch (error) {
@@ -87,6 +95,7 @@ export const insertMessage = async (
     const messagesRef = collection(db, "messages");
     const docRef = await addDoc(messagesRef, {
       ...message,
+      versionName: doc(db, "versions", message.versionName),
       createdAt: serverTimestamp(),
     });
     console.log("Message added successfully");
