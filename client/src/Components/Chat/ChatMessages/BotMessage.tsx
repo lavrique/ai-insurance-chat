@@ -76,7 +76,8 @@ const BotMessage: React.FC<Message> = ({
           onMouseLeave={handleOnMouseLeave}
           className={messageItemStyles.editButton}
         >
-          Edit
+          {/* TODO change namings from edit to add note */}
+          Add Note
         </div>
       ) : null}
       <div
