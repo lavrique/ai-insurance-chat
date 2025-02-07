@@ -30,7 +30,7 @@ const MessageList: React.FC = () => {
 
   if (!activeChat)
     return (
-      <p className={styles.noChat}>Select a chat to start messaging.</p>
+      <p className={styles.noChat}>Add a new chat to start asking questions for you needs!</p>
     );
 
   const handleOnSendMessage = async (text: string) => {

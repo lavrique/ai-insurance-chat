@@ -17,3 +17,22 @@
   flex-direction: column; /* Ensure messages are stacked */
   gap: 10px;
 }
+
+.noChat {
+  /* Basic text styling */
+  font-size: 1.15rem; /* Slightly larger than the default 16px */
+  font-weight: 500; /* Medium weight */
+  color: #333; /* Dark gray text for good contrast */
+  margin: 1rem 0; /* Add breathing room */
+
+  /* A subtle background + padding to make it pop */
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 6px;
+
+  /* Optional: a soft drop shadow for a card-like feel */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  /* Align center if it suits your layout */
+  text-align: center;
+}

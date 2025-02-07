@@ -90,7 +90,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
         buildChatsFromDatabaseMessages(retrievedMessages);
 
       setChats(buildedChats);
-      setActiveChat(buildedChats[0].id);
+      setActiveChat(buildedChats?.[0]?.id);
     };
     getAllMessagesCallback();
   }, []);
@@ -122,7 +122,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
 
     const buildedChats = buildChatsFromDatabaseMessages(retrievedMessages);
     setChats(buildedChats);
-    setActiveChat(buildedChats[0].id);
+    setActiveChat(buildedChats?.[0]?.id);
   };
 
   const addMessageToChat = (
