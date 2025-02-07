@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import ChatInput from "../ChatInput/ChatInput";
 import { ChatContext, useChatContext } from "../../../context/ChatContext";
 import styles from "./MessageList.module.css";
@@ -10,14 +10,20 @@ import useAppStore from "../../../hooks/useAppStore";
 
 const MessageList: React.FC = () => {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
+  const [wasAllMessagesScrolled, setWasAllMessagesScrolled] =
+    useState(false);
   const { setIsMessageAnswerLoading } = useAppStore(
     (state) => state.uiState,
   );
   const chatContext = useChatContext();
 
   // Function to scroll to bottom
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView();
+  const scrollToBottom = (isSmoothScrolling: boolean) => {
+    if (isSmoothScrolling) {
+      messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      messagesEndRef.current?.scrollIntoView();
+    }
   };
 
   const { chats, activeChatId, addMessageToChat, activeVersionId } =
@@ -26,9 +32,18 @@ const MessageList: React.FC = () => {
 
   useEffect(() => {
     if ((activeChat?.messages?.length ?? 0) > 0) {
-      scrollToBottom();
+      if (wasAllMessagesScrolled) {
+        scrollToBottom(true);
+      } else {
+        setWasAllMessagesScrolled(true);
+        scrollToBottom(false);
+      }
     }
   }, [activeChat?.messages]);
+
+  useEffect(() => {
+    setWasAllMessagesScrolled(false);
+  }, [activeChatId]);
 
   if (!activeChat)
     return (
