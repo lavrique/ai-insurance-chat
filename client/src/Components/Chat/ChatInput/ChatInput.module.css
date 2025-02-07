@@ -3,14 +3,22 @@
   padding: 10px;
   border-top: 1px solid #ddd;
   background: white;
+  align-items: flex-end; /* Align items to the bottom */
 }
 
 .input {
+  /* height: auto; */
+  /* min-height: 52px; */
   flex-grow: 1;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   outline: none;
+  resize: none; /* Disable manual resizing */
+  /* overflow: hidden; Hide scrollbar */
+  font-family: inherit; /* Match the font of the input */
+  font-size: inherit; /* Match the font size of the input */
+  line-height: inherit; /* Match the line height of the input */
 }
 
 .sendButton {

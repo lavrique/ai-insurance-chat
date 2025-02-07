@@ -19,10 +19,22 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
   };
 
   const handleKeyPress = (
-    event: React.KeyboardEvent<HTMLInputElement>,
+    event: React.KeyboardEvent<HTMLTextAreaElement>,
   ) => {
-    if (event.key === "Enter") {
+    if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault(); // Prevents adding a new line
       handleSend();
+    }
+  };
+
+  const handleInput = (event: React.FormEvent<HTMLTextAreaElement>) => {
+    const target = event.target as HTMLTextAreaElement;
+    setText(target.value);
+
+    // Auto-resize the textarea
+    target.style.height = "auto";
+    if (target.scrollHeight > 50) {
+      target.style.height = `${target.scrollHeight}px`;
     }
   };
 
@@ -30,13 +42,13 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
     <>
       {isLoading && <ThinkingIndicator />}
       <div className={styles.chatInput}>
-        <input
-          type="text"
+        <textarea
           className={styles.input}
           placeholder="Type a message..."
           value={text}
-          onChange={(e) => setText(e.target.value)}
+          onChange={handleInput}
           onKeyPress={handleKeyPress}
+          rows={1} // Start with one row
         />
         <button className={styles.sendButton} onClick={handleSend}>
           Send
