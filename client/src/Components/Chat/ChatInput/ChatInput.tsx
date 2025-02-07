@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./ChatInput.module.css";
 import ThinkingIndicator from "./ThinkingIndicator";
-import { useLoadingContext } from "../../../context/LoadingContext";
+import useAppStore from "../../../hooks/useAppStore";
 
 interface ChatInputProps {
   onSendMessage: (text: string) => void;
@@ -9,8 +9,9 @@ interface ChatInputProps {
 
 const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
   const [text, setText] = useState("");
-  const { isLoading } = useLoadingContext();
-
+  const { isMessageAnswerLoading } = useAppStore(
+    (state) => state.uiState,
+  );
   const handleSend = () => {
     if (text.trim() !== "") {
       onSendMessage(text);
@@ -40,7 +41,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
 
   return (
     <>
-      {isLoading && <ThinkingIndicator />}
+      {isMessageAnswerLoading && <ThinkingIndicator />}
       <div className={styles.chatInput}>
         <textarea
           className={styles.input}

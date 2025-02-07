@@ -6,6 +6,8 @@ import {
   gerLocalStorageSideBarWidth,
   setLocalStorageSideBarWidth,
 } from "../utils/localStorage";
+import LoadingOverlay from "./LoadingOverlay";
+import useAppStore from "../hooks/useAppStore";
 
 const ChatPage: React.FC = () => {
   // Track the width of the sidebar
@@ -14,6 +16,7 @@ const ChatPage: React.FC = () => {
     250,
   );
 
+  const { isAppLoading } = useAppStore((state) => state.uiState);
   // Refs to handle dragging
   const isResizingRef = useRef(false);
   const lastDownXRef = useRef(0);
@@ -75,6 +78,7 @@ const ChatPage: React.FC = () => {
       <main className={styles["chat-main"]}>
         <MessageList />
       </main>
+      {isAppLoading && <LoadingOverlay />}
     </div>
   );
 };

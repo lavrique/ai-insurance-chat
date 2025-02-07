@@ -9,7 +9,7 @@ import React, {
 import { getAllMessages, getAllVersions } from "../services/firebase";
 import { v7 } from "uuid";
 import { buildChatsFromDatabaseMessages } from "../utils/buildChatsFromDatabaseMessages";
-import { useLoadingContext } from "./LoadingContext";
+import useAppStore from "../hooks/useAppStore";
 
 export type EmbeddingVersion = "Embeddings-v0.0.1" | string;
 
@@ -57,8 +57,6 @@ interface ChatContextType {
     text: string,
     sender: "user" | "bot",
   ) => void;
-  setIsLoading: (isLoading: boolean) => void;
-  isLoading: boolean;
 }
 
 export const ChatContext = createContext<ChatContextType | undefined>(
@@ -73,12 +71,13 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
   const [versions, setVersions] = useState<Version[]>([]);
   const [activeVersionId, setActiveVersionId] = useState<string>("");
   const [activeChatId, setActiveChatId] = useState<string>("");
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const { showLoading, hideLoading } = useLoadingContext();
+  const { setIsAppLoading } = useAppStore(
+    (state) => state.uiState,
+  );
 
   useEffect(() => {
     const getAllMessagesCallback = async () => {
-      showLoading(true);
+      setIsAppLoading(true);
       const retrievedVersions: DatabaseVersion[] = await getAllVersions();
       setVersions(retrievedVersions);
       setActiveVersionId(retrievedVersions[0].id);
@@ -92,7 +91,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
 
       setChats(buildedChats);
       setActiveChat(buildedChats?.[0]?.id);
-      hideLoading();
+      setIsAppLoading(false);
     };
     getAllMessagesCallback();
   }, []);
@@ -118,9 +117,9 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
     const isVersionAlreadyRetrieved = versions.some(
       (version) => version.id === id,
     );
-    showLoading(true);
+    setIsAppLoading(true);
     const retrievedMessages: DatabaseMessage[] = await getAllMessages(id);
-    hideLoading();
+    setIsAppLoading(false);
 
     const buildedChats = buildChatsFromDatabaseMessages(retrievedMessages);
     setChats(buildedChats);
@@ -160,8 +159,6 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
         addNewChat,
         setActiveChat,
         addMessageToChat,
-        setIsLoading,
-        isLoading,
       }}
     >
       {children}

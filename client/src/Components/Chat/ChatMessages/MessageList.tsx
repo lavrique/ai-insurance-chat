@@ -4,13 +4,15 @@ import { ChatContext, useChatContext } from "../../../context/ChatContext";
 import styles from "./MessageList.module.css";
 import { insertMessage } from "../../../services/firebase";
 import { v7 } from "uuid";
-import { useLoadingContext } from "../../../context/LoadingContext";
 import UserMessage from "./UserMessage";
 import BotMessage from "./BotMessage";
+import useAppStore from "../../../hooks/useAppStore";
 
 const MessageList: React.FC = () => {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
-  const { showLoading, hideLoading } = useLoadingContext();
+  const { setIsMessageAnswerLoading } = useAppStore(
+    (state) => state.uiState,
+  );
   const chatContext = useChatContext();
 
   // Function to scroll to bottom
@@ -36,7 +38,7 @@ const MessageList: React.FC = () => {
     );
 
   const handleOnSendMessage = async (text: string) => {
-    showLoading(false);
+    setIsMessageAnswerLoading(true);
     const idQuestion = await insertMessage({
       id: v7(),
       text,
@@ -62,7 +64,7 @@ const MessageList: React.FC = () => {
     console.log("request arrived from server");
     const { answer } = await response?.json();
 
-    hideLoading();
+    setIsMessageAnswerLoading(false);
 
     const idAnser = await insertMessage({
       // TODO delete this id. it will be retireved rom the document
