@@ -95,23 +95,21 @@ const MessageList: React.FC = () => {
 
   return (
     <div className={styles.chatWindow}>
-      <div className={styles.messages}>
-        {activeChat.messages.map((msg) =>
-          msg.sender === "user" ? (
-            <UserMessage key={msg.id} text={msg.text} />
-          ) : (
-            <BotMessage
-              key={msg.id}
-              id={msg.id}
-              sender={msg.sender}
-              text={msg.text}
-              note={msg.note}
-              version={msg.version}
-            />
-          ),
-        )}
-        <div ref={messagesEndRef} />
-      </div>
+      {activeChat.messages.map((msg) =>
+        msg.sender === "user" ? (
+          <UserMessage key={msg.id} text={msg.text} />
+        ) : (
+          <BotMessage
+            key={msg.id}
+            id={msg.id}
+            sender={msg.sender}
+            text={msg.text}
+            note={msg.note}
+            version={msg.version}
+          />
+        ),
+      )}
+      <div ref={messagesEndRef} />
       <ChatInput onSendMessage={handleOnSendMessage} />
     </div>
   );
