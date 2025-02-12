@@ -1,4 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "prettier.configPath": ".prettierrc"
+  "prettier.configPath": ".prettierrc",
+  "typescript.suggest.paths": false ,
+  "javascript.suggest.paths": false 
 }

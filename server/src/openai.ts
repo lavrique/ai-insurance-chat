@@ -1,5 +1,6 @@
 import { OpenAI } from "openai";
 import fs from "fs";
+import fsPromise from "fs/promises";
 import config from "./config";
 
 type StoredEmbedding = {
@@ -14,9 +15,21 @@ const apiKey = config.OPENAI_API_KEY;
 
 const openai = new OpenAI({ apiKey });
 
-const embeddedVectors: StoredEmbedding[] = JSON.parse(
-  fs.readFileSync("embeddings.json", "utf8"),
-);
+const embeddedVectors: Record<string, StoredEmbedding[]> = {};
+
+const runGetEmbeddedVectors = async () => {
+  console.log("********* files START READ *********");
+  const files = await fsPromise.readdir("../versionModels");
+  files.forEach((versionModelName) => {
+    const jsonFile = JSON.parse(
+      fs.readFileSync(`../versionModels/${versionModelName}`, "utf8"),
+    );
+    Object.assign(embeddedVectors, { [versionModelName]: jsonFile });
+  });
+  console.log("********* files FINISHED READ *********", files);
+};
+
+runGetEmbeddedVectors();
 
 const cosineSimilarity = (vecA: any, vecB: any) => {
   let dot = 0.0;
@@ -35,7 +48,8 @@ const cosineSimilarity = (vecA: any, vecB: any) => {
  */
 async function retrieveTopChunks(
   query: string,
-  topN = 3,
+  topN: number,
+  version: string,
 ): Promise<StoredChunk[]> {
   // Get the embedding for the user query
   const queryResponse = await openai.embeddings.create({
@@ -44,8 +58,13 @@ async function retrieveTopChunks(
   });
   const queryEmbedding = queryResponse.data[0].embedding;
 
+  console.log("debug --- version", version);
+  console.log("debug --- embeddedVectors", Object.keys(embeddedVectors));
+
   // Score each chunk using cosine similarity as a score
-  const scoredChunks: StoredChunk[] = embeddedVectors.map((chunk: any) => {
+  const scoredChunks: StoredChunk[] = embeddedVectors[
+    `${version.toLowerCase()}.json`
+  ].map((chunk: any) => {
     return {
       ...chunk,
       score: cosineSimilarity(queryEmbedding, chunk.embedding),
@@ -70,14 +89,20 @@ function buildPrompt(query: string, topChunks: StoredChunk[]) {
     `Ești un expert în asigurări. Utilizatorul a întrebat: "${query}"\n\n` +
     `Iată câteva extrase relevante din documente:\n\n${contextText}\n` +
     `Furnizează un răspuns concis în limba română, menționând detalii relevante.` +
-    `Nu furniza informatii suplimentari sau presupuneri inafara de ce se gaseste in conditii` +
     `Asigurarile din care poti extrage informatii sunt doar pentru calatorie.`
   );
 }
 
-export const getAnswer = async (query: string): Promise<string> => {
+export const getAnswer = async (
+  query: string,
+  version: string,
+): Promise<string> => {
   console.log("start getting chunks from query");
-  const topChunks: StoredChunk[] = await retrieveTopChunks(query, 4);
+  const topChunks: StoredChunk[] = await retrieveTopChunks(
+    query,
+    10,
+    version,
+  );
   console.log("finish getting chunks from query");
   const prompt = buildPrompt(query, topChunks);
 
@@ -89,7 +114,9 @@ export const getAnswer = async (query: string): Promise<string> => {
         role: "system",
         content:
           "Ești un asistent specializat în asigurări." +
-          "Produsele pe care le cunosti sunt asigurari de tipul travel",
+          "Produsele pe care le cunosti sunt asigurari de tipul travel" +
+          "Extragi raspunsurile din chunks. Nu ii spui niciodata utilizatorului despre chunks sau (Chunk number)" +
+          "Nu furniza informatii suplimentari sau presupuneri inafara extrase relevante din documente",
       },
       { role: "user", content: prompt },
     ],

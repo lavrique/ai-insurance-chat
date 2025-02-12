@@ -26,8 +26,13 @@ const MessageList: React.FC = () => {
     }
   };
 
-  const { chats, activeChatId, addMessageToChat, activeVersionId } =
-    chatContext;
+  const {
+    chats,
+    activeChatId,
+    addMessageToChat,
+    activeVersionId,
+    versions,
+  } = chatContext;
   const activeChat = chats.find((chat) => chat.id === activeChatId);
 
   useEffect(() => {
@@ -39,6 +44,7 @@ const MessageList: React.FC = () => {
         scrollToBottom(false);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeChat?.messages]);
 
   useEffect(() => {
@@ -66,6 +72,9 @@ const MessageList: React.FC = () => {
     addMessageToChat(idQuestion, activeChatId, text, "user");
     console.log("request Made to server");
     // TODO move this to a service
+    const activeVersionName = versions.find(
+      (version) => version.id === activeVersionId,
+    )?.name;
     const response = await fetch(
       `${process.env.REACT_APP_SERVER_URL}/api/openai`,
       {
@@ -73,7 +82,7 @@ const MessageList: React.FC = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ query: text }),
+        body: JSON.stringify({ query: text, version: activeVersionName }),
       },
     );
     console.log("request arrived from server");
