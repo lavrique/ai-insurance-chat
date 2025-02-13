@@ -10,6 +10,8 @@ import { getAllMessages, getAllVersions } from "../services/firebase";
 import { v7 } from "uuid";
 import { buildChatsFromDatabaseMessages } from "../utils/buildChatsFromDatabaseMessages";
 import useAppStore from "../hooks/useAppStore";
+import { getLocalStorageSelectedVersion } from "../utils/localStorage";
+import { Timestamp } from "firebase/firestore";
 
 export type EmbeddingVersion = "Embeddings-v0.0.1" | string;
 
@@ -26,12 +28,14 @@ export interface Chat {
   id: string;
   name: string;
   messages: Message[];
+  createdAt: Date;
 }
 
 export interface DatabaseMessage extends Message {
   chatId: string;
   chatName: string;
   versionName: string;
+  createdAt: Timestamp;
 }
 
 export interface Version {
@@ -71,23 +75,25 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
   const [versions, setVersions] = useState<Version[]>([]);
   const [activeVersionId, setActiveVersionId] = useState<string>("");
   const [activeChatId, setActiveChatId] = useState<string>("");
-  const { setIsAppLoading } = useAppStore(
-    (state) => state.uiState,
-  );
+  const { setIsAppLoading } = useAppStore((state) => state.uiState);
 
   useEffect(() => {
+    const localStorageVersion = getLocalStorageSelectedVersion();
     const getAllMessagesCallback = async () => {
       setIsAppLoading(true);
       const retrievedVersions: DatabaseVersion[] = await getAllVersions();
       setVersions(retrievedVersions);
-      setActiveVersionId(retrievedVersions[0].id);
 
-      const retrievedMessages: DatabaseMessage[] = await getAllMessages(
-        retrievedVersions[0].id,
-      );
+      const versionId = localStorageVersion
+        ? localStorageVersion.id
+        : retrievedVersions[0].id;
+      setActiveVersionId(versionId);
+
+      const retrievedMessages: DatabaseMessage[] =
+        await getAllMessages(versionId);
+
       console.log("debug --- messages response", retrievedMessages);
-      const buildedChats =
-        buildChatsFromDatabaseMessages(retrievedMessages);
+      const buildedChats = buildChatsFromDatabaseMessages(retrievedMessages);
 
       setChats(buildedChats);
       setActiveChat(buildedChats?.[0]?.id);
@@ -101,8 +107,13 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
       id: (chats.length + 1).toString(),
       name,
       messages: [],
+      createdAt: new Date(),
     };
-    setChats([...chats, newChat]);
+    setChats(
+      [...chats, newChat].sort(
+        (a, b) => b.createdAt.getTime() - a.createdAt.getTime(),
+      ),
+    );
     setActiveChatId(newChat.id);
   };
 
@@ -132,18 +143,22 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({
     text: string,
     sender: "user" | "bot",
   ) => {
-    setChats((prevChats) =>
-      prevChats.map((chat) =>
-        chat.id === chatId
-          ? {
-              ...chat,
-              messages: [
-                ...chat.messages,
-                { id, text, sender, version: chatId },
-              ],
-            }
-          : chat,
-      ),
+    setChats(
+      (prevChats) =>
+        prevChats
+          .map((chat) =>
+            chat.id === chatId
+              ? {
+                  ...chat,
+                  createdAt: new Date(),
+                  messages: [
+                    ...chat.messages,
+                    { id, text, sender, version: chatId },
+                  ],
+                }
+              : chat,
+          )
+          .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime()), // Sort newest first
     );
   };
 

@@ -114,9 +114,9 @@ export const getAnswer = async (
         role: "system",
         content:
           "Ești un asistent specializat în asigurări." +
-          "Produsele pe care le cunosti sunt asigurari de tipul travel" +
-          "Extragi raspunsurile din chunks. Nu ii spui niciodata utilizatorului despre chunks sau (Chunk number)" +
-          "Nu furniza informatii suplimentari sau presupuneri inafara extrase relevante din documente",
+          "Produsele pe care le cunosti sunt asigurari de tipul travel",
+        // "Extragi raspunsurile din chunks. Nu ii spui niciodata utilizatorului despre chunks sau (Chunk number)",
+        // "Nu furniza informatii suplimentari sau presupuneri inafara extrase relevante din documente",
       },
       { role: "user", content: prompt },
     ],

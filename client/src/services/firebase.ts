@@ -10,6 +10,7 @@ import {
   doc,
   updateDoc,
   where,
+  Timestamp,
 } from "firebase/firestore";
 import {
   EmbeddingVersion,
@@ -17,6 +18,8 @@ import {
   DatabaseMessage,
   DatabaseVersion,
 } from "../context/ChatContext";
+
+const MESSAGES = process.env.REACT_APP_MESSAGES_COLLECTION as string;
 
 const firebaseConfig: FirebaseOptions = {
   apiKey: process.env.REACT_APP_CLIENT_APY_KEY,
@@ -60,11 +63,10 @@ export const getAllMessages = async (
   versionId: string,
 ): Promise<DatabaseMessage[]> => {
   try {
-    const messagesRef = collection(db, "messages");
+    const messagesRef = collection(db, MESSAGES);
     const q = query(
       messagesRef,
       where("versionName", "==", doc(db, "versions", versionId)),
-      // where("versionName", "==", `/versions/${versionId}`),
       orderBy("createdAt", "asc"),
     );
 
@@ -88,11 +90,11 @@ export const getAllMessages = async (
 };
 
 export const insertMessage = async (
-  message: DatabaseMessage,
+  message: Omit<DatabaseMessage, "createdAt">,
 ): Promise<string> => {
   try {
     console.log("serverTimestamp", JSON.stringify(serverTimestamp()));
-    const messagesRef = collection(db, "messages");
+    const messagesRef = collection(db, MESSAGES);
     const docRef = await addDoc(messagesRef, {
       ...message,
       versionName: doc(db, "versions", message.versionName),
@@ -102,6 +104,7 @@ export const insertMessage = async (
     return docRef.id;
   } catch (error) {
     console.error("Error inserting message:", error);
+    // TODO make proper error handling
     return "Error inserting message";
   }
 };
@@ -111,7 +114,7 @@ export const addNoteToMessage = async (
   note: string,
 ): Promise<void> => {
   try {
-    const messageRef = doc(db, "messages", messageId);
+    const messageRef = doc(db, MESSAGES, messageId);
 
     await updateDoc(messageRef, {
       note, // ✅ Update only the note

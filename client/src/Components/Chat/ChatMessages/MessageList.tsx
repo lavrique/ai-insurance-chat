@@ -10,11 +10,8 @@ import useAppStore from "../../../hooks/useAppStore";
 
 const MessageList: React.FC = () => {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
-  const [wasAllMessagesScrolled, setWasAllMessagesScrolled] =
-    useState(false);
-  const { setIsMessageAnswerLoading } = useAppStore(
-    (state) => state.uiState,
-  );
+  const [wasAllMessagesScrolled, setWasAllMessagesScrolled] = useState(false);
+  const { setIsMessageAnswerLoading } = useAppStore((state) => state.uiState);
   const chatContext = useChatContext();
 
   // Function to scroll to bottom
@@ -26,13 +23,8 @@ const MessageList: React.FC = () => {
     }
   };
 
-  const {
-    chats,
-    activeChatId,
-    addMessageToChat,
-    activeVersionId,
-    versions,
-  } = chatContext;
+  const { chats, activeChatId, addMessageToChat, activeVersionId, versions } =
+    chatContext;
   const activeChat = chats.find((chat) => chat.id === activeChatId);
 
   useEffect(() => {

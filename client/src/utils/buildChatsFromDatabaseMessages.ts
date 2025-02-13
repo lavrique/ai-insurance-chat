@@ -19,10 +19,14 @@ export const buildChatsFromDatabaseMessages = (
   }, {});
 
   // Convert the grouped object into the chats
-  const chats = Object.entries(grouped).map(([chatName, messages]) => ({
-    id: messages[0]?.chatId || v7(),
-    name: chatName,
-    messages,
-  }));
+  const chats = Object.entries(grouped)
+    .map(([chatName, messages]) => ({
+      id: messages[0]?.chatId || v7(),
+      name: chatName,
+      messages,
+      createdAt: messages[messages.length - 1].createdAt.toDate(),
+    }))
+    .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime()); // Sort newest first
+
   return chats;
 };

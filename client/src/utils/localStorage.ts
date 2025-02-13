@@ -5,17 +5,14 @@ export const setLocalStorageSelectedVersion = (version: Version) => {
   localStorage.setItem("selectedVersion", JSON.stringify(version));
 };
 
-export const getLocalStorageSelectedVersion = (): Partial<Version> => {
+export const getLocalStorageSelectedVersion = (): Version | null => {
   const savedSelectedVersionJSON = localStorage.getItem("selectedVersion");
   let selectedVersion = null;
   if (savedSelectedVersionJSON) {
     selectedVersion = JSON.parse(savedSelectedVersionJSON);
     return selectedVersion;
   }
-  return {
-    id: v7(),
-    name: "Embeddings",
-  };
+  return null;
 };
 
 export const setLocalStorageSideBarWidth = (width: number) => {
@@ -23,9 +20,7 @@ export const setLocalStorageSideBarWidth = (width: number) => {
 };
 
 //TODO see why it does not work properly. When I refresh it flickers
-export const gerLocalStorageSideBarWidth = (
-  defaultWidth: number,
-): number => {
+export const gerLocalStorageSideBarWidth = (defaultWidth: number): number => {
   const width = localStorage.getItem("sidebarWidth");
   if (!width) {
     return defaultWidth;
