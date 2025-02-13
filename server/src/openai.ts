@@ -78,18 +78,20 @@ async function retrieveTopChunks(
 
 function buildPrompt(query: string, topChunks: StoredChunk[]) {
   let contextText = "";
-  topChunks.forEach((chunk, idx) => {
-    contextText += `Chunk ${idx + 1} (from ${chunk.file || "unknown file"}):\n${chunk.text}\n\n`;
+  topChunks.forEach((chunk, index) => {
+    console.log("\n\n\n");
+    console.log("debug --- query", query);
+    console.log("\n\n\n");
+    console.log("debug -- chung for query:", index, " ", chunk.text, "\n\n\n");
+    contextText += `${chunk.text} (din ${chunk.file || "fisier necunoscut"}):\n\n`;
   });
 
-  // return `Ești un expert în vanzari. Utilizatorul a întrebat: "${query}"\n\n` +
-  //     `Iată câteva extrase relevante din documente:\n\n${contextText}\n` +
-  //     `Furnizează un răspuns concis în limba română, menționând detalii relevante.`;
   return (
     `Ești un expert în asigurări. Utilizatorul a întrebat: "${query}"\n\n` +
     `Iată câteva extrase relevante din documente:\n\n${contextText}\n` +
     `Furnizează un răspuns concis în limba română, menționând detalii relevante.` +
     `Asigurarile din care poti extrage informatii sunt doar pentru calatorie.`
+    // "Nu furniza informatii suplimentari sau presupuneri inafara extrase relevante din documente"
   );
 }
 
@@ -98,11 +100,7 @@ export const getAnswer = async (
   version: string,
 ): Promise<string> => {
   console.log("start getting chunks from query");
-  const topChunks: StoredChunk[] = await retrieveTopChunks(
-    query,
-    10,
-    version,
-  );
+  const topChunks: StoredChunk[] = await retrieveTopChunks(query, 15, version);
   console.log("finish getting chunks from query");
   const prompt = buildPrompt(query, topChunks);
 
@@ -113,10 +111,12 @@ export const getAnswer = async (
       {
         role: "system",
         content:
-          "Ești un asistent specializat în asigurări." +
-          "Produsele pe care le cunosti sunt asigurari de tipul travel",
-        // "Extragi raspunsurile din chunks. Nu ii spui niciodata utilizatorului despre chunks sau (Chunk number)",
-        // "Nu furniza informatii suplimentari sau presupuneri inafara extrase relevante din documente",
+          "Ești un asistent specializat în asigurări de călătorie. " +
+          "Poți răspunde doar pe baza informațiilor furnizate în documentele de mai jos. " +
+          "Dacă nu găsești informații relevante, răspunde cu 'Nu am informații despre acest subiect în documentele disponibile.' " +
+          "Dacă nu găsești informații relevante, indruma-l sa puna intrebarile corecte astfel incat sa ajungeti la rezultatul dorit' " +
+          "Daca in documente primesc raspuns care priveste mai multi asiguratori atunci mentioneaza clar aces aspect" +
+          "Nu adăuga informații din alte surse sau presupuneri.",
       },
       { role: "user", content: prompt },
     ],
